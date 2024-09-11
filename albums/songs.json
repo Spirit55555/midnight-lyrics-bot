@@ -1,0 +1,32 @@
+{
+	"title": "Songs",
+	"songs": [
+		{
+			"title": "C O L D P I Z Z A",
+			"spotify_id": "coldpizza",
+			"lyrics": "Cold pizza",
+			"reply": "🍕 https://www.youtube.com/watch?v=8i5MYaVSSHE"
+		},
+		{
+			"title": "Sax Solo",
+			"spotify_id": "saxsolo",
+			"lyrics": "Sax solo",
+			"reply": "🎷🎷🎷"
+		},
+		{
+			"title": "Sometimes She Smiles",
+			"spotify_id": "36q8Nykkb2aq3M643lwq5a",
+			"lyrics": "He spoke of the truth and how it might save her\nAnd she spoke of the trees in Vermont in the winter\n|He said we must strive for faith through devotion\nWhile she dreams of the smell of the Indian Ocean\n|He spoke in philosophical structure\nShe spoke of a vineyard, she spoke of her lover\n|When he does not understand\nYou can hear bones breaking in his head\nWhen she does not understand\n|Sometimes she smiles\nWhen he does not understand\nYou can hear bones breaking in his head\nWhen she does not understand\n|Sometimes she smiles\nHe said reason is what separates man from the beasts\nAnd she kissed him and put him at ease\n"
+		},
+		{
+			"title": "Land Locked Heart",
+			"spotify_id": "37vPji99LSgupi5Bmj9pYn",
+			"lyrics": "Maybe I left you a long time ago\nAnd neither of us knew it\n|Would You say I’d lost the plot\nWould You say I blew it\n|I thought I found a way back home\nBut now that I’m looking through it\n|After all this time we've lost\nI think I just outgrew it\n|Are we supposed to waste away?\n|Empty out my bedroom\nThrow all that shit/stuff away\nAll I'm taking with me now is blank slate\n|These days are to short\nTo live a whole life through\nIn this land locked\nThis land locked heart with you\n|Maybe I left you a long time ago\nand maybe we both knew\n|that Wild seeds turn to tall trees\nIf the youth don’t plow right through it\n|So yeah I caught that early breeze\nYeah flew beyond your edges\nAnd when I came back for the holidays\nI tried to setting fire to the hedges\n|Were we supposed to waste away?\n|Empty out my bedroom\nThe one you kissed me in\nThe ghost of who I was and who I am cannot begin\n|When these days are too short\nTo live a whole life through\nIn this land locked\nThis land locked heart with you\n"
+		},
+		{
+			"title": "Static",
+			"spotify_id": "0TiZDNPU2t4STNJW4Qdj22",
+			"lyrics": "At the shoreline in a snowstorm\nI was baptized\nLike a new born\nIn the static\n|There was a voice inside a dream\nSaid Lift your head up\nCome up clean\nInto the static\n|You were a wild thing\nPretending to be tame\n|I was a wild thing\nTrapped inside a cage\n|I wasn’t looking for deliverance\nWhen you walked in from the wilderness\n|I was yours and you were mine\nBut Everything returns on time\nTo the static\n|Though the circuit board erased\nFlashes of memory still remain\nIn the static\n|In between the ones and zeros\nYou will find me if you let go\nIn the static"
+		}
+	]
+}
