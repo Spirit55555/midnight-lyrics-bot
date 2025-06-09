@@ -3,15 +3,14 @@
 	"songs": [
 		{
 			"title": "C O L D P I Z Z A",
-			"spotify_id": "coldpizza",
 			"lyrics": "Cold pizza",
-			"reply": "🍕 https://www.youtube.com/watch?v=8i5MYaVSSHE"
+			"emoji": "🍕",
+			"link": "https://www.youtube.com/watch?v=8i5MYaVSSHE"
 		},
 		{
 			"title": "Sax Solo",
-			"spotify_id": "saxsolo",
 			"lyrics": "Sax solo",
-			"reply": "🎷🎷🎷"
+			"emoji": "🎷🎷🎷"
 		},
 		{
 			"title": "Sometimes She Smiles",
