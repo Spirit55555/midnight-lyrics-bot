@@ -31,7 +31,7 @@ func postToBluesky(post, reply, link string) {
 
 	fmt.Println("Bluesky authentication successful")
 
-	pb := botsky.NewPostBuilder(post)
+	pb := botsky.NewPostBuilder(post).AddLanguage("en-US")
 
 	if link != "" {
 		pb = pb.AddEmbedLink(link)
@@ -45,7 +45,7 @@ func postToBluesky(post, reply, link string) {
 	}
 
 	if reply != "" {
-		rpb := botsky.NewPostBuilder(reply).ReplyTo(uri)
+		rpb := botsky.NewPostBuilder(reply).AddLanguage("en-US").ReplyTo(uri)
 
 		rcid, ruri, rerr := client.Post(ctx, rpb)
 		if rerr != nil {
