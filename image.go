@@ -12,6 +12,9 @@ import (
 	"git.sr.ht/~sbinet/gg"
 )
 
+const WIDTH int = 1080
+const MARGIN int = 78
+
 func generateImage(albumName string, album Album, song Song, lyrics string, finalImagePath string) {
 	albumFile, _ := os.Open("images/" + albumName + ".png")
 	defer albumFile.Close()

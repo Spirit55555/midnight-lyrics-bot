@@ -8,10 +8,9 @@ import (
 	"math/rand"
 	"os"
 	"strings"
+	"time"
 )
 
-const WIDTH int = 1080
-const MARGIN int = 78
 const SPOTIFY_TRACK_LINK = "https://open.spotify.com/track/%s"
 
 type Album struct {
@@ -39,10 +38,11 @@ var albums = []string{
 }
 
 func main() {
-	shouldGenerateAllImages := flag.Bool("generate-all-images", false, "Generate all images")
+	generateAllImagesFlag := flag.Bool("generate-all-images", false, "Generate all images (for testing only)")
+	fakeMidnightFlag := flag.Bool("fake-midnight", false, "Fake that it's midnight (for testing only)")
 	flag.Parse()
 
-	if *shouldGenerateAllImages {
+	if *generateAllImagesFlag {
 		generateAllImages()
 		os.Exit(0)
 	}
@@ -50,6 +50,13 @@ func main() {
 	randomAlbumName := albums[rand.Intn(len(albums))]
 	album := getAlbum(randomAlbumName)
 	song := album.Songs[rand.Intn(len(album.Songs))]
+
+	//Special post at midnight
+	if time.Now().Hour() == 0 || *fakeMidnightFlag {
+		randomAlbumName = "midnight_bot"
+		song = Song{"Midnight", "", "We are one beating heart", "💓", ""}
+		album = Album{"Midnight", []Song{song}}
+	}
 
 	lyricParts := strings.Split(song.Lyrics, "|")
 	lyrics := lyricParts[rand.Intn(len(lyricParts))]
@@ -60,7 +67,7 @@ func main() {
 	fmt.Printf("Song title: %s\n", song.Title)
 
 	if song.SpotifyID != "" {
-		fmt.Printf(SPOTIFY_TRACK_LINK+"\n", song.SpotifyID)
+		fmt.Printf("Spotify link: "+SPOTIFY_TRACK_LINK+"\n", song.SpotifyID)
 		link = fmt.Sprintf(SPOTIFY_TRACK_LINK, song.SpotifyID)
 	}
 
