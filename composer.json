@@ -1,6 +1,0 @@
-{
-    "require": {
-        "intervention/image": "^3.8",
-        "vlucas/phpdotenv": "^5.6"
-    }
-}

@@ -1,17 +1,25 @@
-# Created by https://www.toptal.com/developers/gitignore/api/composer,dotenv
-# Edit at https://www.toptal.com/developers/gitignore?templates=composer,dotenv
+# Allowlisting gitignore template for GO projects prevents us
+# from adding various unwanted local files, such as generated
+# files, developer configurations or IDE-specific files etc.
+#
+# Recommended: Go.AllowList.gitignore
 
-### Composer ###
-composer.phar
-/vendor/
+# Ignore everything
+*
 
-# Commit your application's lock file https://getcomposer.org/doc/01-basic-usage.md#commit-your-composer-lock-file-to-version-control
-# You may choose to ignore a library lock file http://getcomposer.org/doc/02-libraries.md#lock-file
-# composer.lock
+# But not these files...
+!/.gitignore
 
-### dotenv ###
-.env
+!*.go
+!go.sum
+!go.mod
 
-# End of https://www.toptal.com/developers/gitignore/api/composer,dotenv
+!README.md
+!LICENSE
 
-generated_images
+!albums/*.json
+!fonts/*.ttf
+!images/*.png
+
+# ...even if they are in subdirectories
+!*/
