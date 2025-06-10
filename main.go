@@ -87,6 +87,10 @@ func main() {
 	if os.Getenv("BOTSKY_HANDLE") != "" && os.Getenv("BOTSKY_APPKEY") != "" {
 		postToBluesky(lyrics, reply, link)
 	}
+
+	if os.Getenv("THREADS_ACCESS_TOKEN") != "" {
+		postToThreads(lyrics, reply, link)
+	}
 }
 
 func getAlbum(name string) (album Album) {
