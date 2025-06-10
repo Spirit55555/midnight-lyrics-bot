@@ -3,8 +3,8 @@ package main
 import (
 	"crypto/sha1"
 	"encoding/hex"
-	"fmt"
 	"image"
+	"log"
 	"os"
 	"path/filepath"
 	"strings"
@@ -43,7 +43,7 @@ func generateAllImages() {
 	for _, albumName := range albums {
 		album := getAlbum(albumName)
 
-		fmt.Printf("Album: %s\n", album.Title)
+		log.Printf("Album: %s\n", album.Title)
 
 		for _, song := range album.Songs {
 			songFolder := filepath.Join("generated_images", albumName, strings.ToLower(strings.ReplaceAll(song.Title, " ", "_")))
@@ -51,11 +51,11 @@ func generateAllImages() {
 
 			lyricParts := strings.Split(song.Lyrics, "|")
 
-			fmt.Printf("Song: %s\n", song.Title)
-			fmt.Printf("Total lyrics: %d\n", len(lyricParts))
+			log.Printf("Song: %s\n", song.Title)
+			log.Printf("Total lyrics: %d\n", len(lyricParts))
 
 			for i, lyrics := range lyricParts {
-				fmt.Printf("(%d/%d)\n", i+1, len(lyricParts))
+				log.Printf("(%d/%d)\n", i+1, len(lyricParts))
 
 				hash := sha1.Sum([]byte(lyrics))
 

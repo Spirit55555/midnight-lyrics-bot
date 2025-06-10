@@ -2,7 +2,7 @@ package main
 
 import (
 	"context"
-	"fmt"
+	"log"
 
 	"github.com/davhofer/botsky/pkg/botsky"
 )
@@ -11,7 +11,7 @@ func postToBluesky(post, reply, link string) {
 	handle, appkey, err := botsky.GetEnvCredentials()
 
 	if err != nil {
-		panic(err)
+		log.Panic(err)
 	}
 
 	ctx := context.Background()
@@ -20,16 +20,16 @@ func postToBluesky(post, reply, link string) {
 	client, err := botsky.NewClient(ctx, handle, appkey)
 
 	if err != nil {
-		panic(err)
+		log.Panic(err)
 	}
 
 	err = client.Authenticate(ctx)
 
 	if err != nil {
-		panic(err)
+		log.Panic(err)
 	}
 
-	fmt.Println("Bluesky authentication successful")
+	log.Println("Bluesky authentication successful")
 
 	pb := botsky.NewPostBuilder(post).AddLanguage("en-US")
 
@@ -39,9 +39,9 @@ func postToBluesky(post, reply, link string) {
 
 	cid, uri, err := client.Post(ctx, pb)
 	if err != nil {
-		fmt.Println("Error:", err)
+		log.Println("Error:", err)
 	} else {
-		fmt.Println("Posted:", cid, uri)
+		log.Println("Posted:", cid, uri)
 	}
 
 	if reply != "" {
@@ -49,9 +49,9 @@ func postToBluesky(post, reply, link string) {
 
 		rcid, ruri, rerr := client.Post(ctx, rpb)
 		if rerr != nil {
-			fmt.Println("Reply error:", rerr)
+			log.Println("Reply error:", rerr)
 		} else {
-			fmt.Println("Reply posted:", rcid, ruri)
+			log.Println("Reply posted:", rcid, ruri)
 		}
 	}
 }

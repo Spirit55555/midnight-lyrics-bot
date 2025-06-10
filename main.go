@@ -5,6 +5,7 @@ import (
 	"flag"
 	"fmt"
 	_ "image/png"
+	"log"
 	"math/rand"
 	"os"
 	"strings"
@@ -63,27 +64,25 @@ func main() {
 
 	var reply, link string
 
-	fmt.Printf("Album title: %s\n", album.Title)
-	fmt.Printf("Song title: %s\n", song.Title)
+	log.Printf("Album title: %s\n", album.Title)
+	log.Printf("Song title: %s\n", song.Title)
 
 	if song.SpotifyID != "" {
-		fmt.Printf("Spotify link: "+SPOTIFY_TRACK_LINK+"\n", song.SpotifyID)
+		log.Printf("Spotify link: "+SPOTIFY_TRACK_LINK+"\n", song.SpotifyID)
 		link = fmt.Sprintf(SPOTIFY_TRACK_LINK, song.SpotifyID)
 	}
 
 	if song.Link != "" {
-		fmt.Printf("Link: %s\n", song.Link)
+		log.Printf("Link: %s\n", song.Link)
 		link = song.Link
 	}
 
 	if song.Emoji != "" {
-		fmt.Printf("Emoji: %s\n", song.Emoji)
+		log.Printf("Emoji: %s\n", song.Emoji)
 		reply = song.Emoji
 	}
 
-	fmt.Printf("Lyrics: \n%s\n", lyrics)
-
-	//generateImage(randomAlbumName, album, song, lyrics, "preview.png")
+	log.Printf("Lyrics: \n%s\n", lyrics)
 
 	if os.Getenv("BOTSKY_HANDLE") != "" && os.Getenv("BOTSKY_APPKEY") != "" {
 		postToBluesky(lyrics, reply, link)
@@ -94,11 +93,11 @@ func getAlbum(name string) (album Album) {
 	rawData, err := os.ReadFile("albums/" + name + ".json")
 
 	if err != nil {
-		panic(err)
+		log.Panic(err)
 	}
 
 	if err := json.Unmarshal(rawData, &album); err != nil {
-		panic(err)
+		log.Panic(err)
 	}
 
 	return album
