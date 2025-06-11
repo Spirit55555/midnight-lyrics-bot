@@ -10,5 +10,5 @@ Remember to make the file `midnight-lyrics-bot` executable `chmod +x midnight-ly
 BOTSKY_HANDLE=
 BOTSKY_APPKEY=
 THREADS_ACCESS_TOKEN=
-0 */4 * * * cd /home/jens/midnight-lyrics-bot && ./midnight-lyrics-bot
+0 */4 * * * cd /home/USERNAME/midnight-lyrics-bot && ./midnight-lyrics-bot
 ```
