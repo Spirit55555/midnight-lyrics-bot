@@ -53,7 +53,7 @@ func main() {
 	song := album.Songs[rand.Intn(len(album.Songs))]
 
 	//Special post at midnight
-	if time.Now().Hour() == 0 || *fakeMidnightFlag {
+	if (time.Now().Hour() == 0 && time.Now().Minute() == 0) || *fakeMidnightFlag {
 		randomAlbumName = "midnight_bot"
 		song = Song{"Midnight", "", "We are one beating heart", "💓", ""}
 		album = Album{"Midnight", []Song{song}}
