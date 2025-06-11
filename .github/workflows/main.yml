@@ -31,4 +31,10 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
           name: go-package
-          path: midnight-lyrics-bot
+          path: |
+            midnight-lyrics-bot
+            /albums/*
+            /fonts/*
+            /images/*
+            LICENSE
+            README.md
