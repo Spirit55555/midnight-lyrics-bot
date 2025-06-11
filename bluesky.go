@@ -44,7 +44,7 @@ func postToBluesky(post, reply, link string) {
 		log.Println("Posted:", cid, uri)
 	}
 
-	if reply != "" {
+	if err == nil && reply != "" {
 		rpb := botsky.NewPostBuilder(reply).AddLanguage("en-US").ReplyTo(uri)
 
 		rcid, ruri, rerr := client.Post(ctx, rpb)
