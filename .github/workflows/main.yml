@@ -1,7 +1,4 @@
-# This workflow will build a golang project
-# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-go
-
-name: Go
+name: Build Go executable
 
 on:
   push:
@@ -24,10 +21,10 @@ jobs:
     - name: Build
       run: go build -v -ldflags="-s -w" ./...
 
-    - name: Upload Artifact
+    - name: Create zip of build Go executable
       uses: actions/upload-artifact@v4
       with:
-          name: go-package
+          name: lyrics-bot
           path: |
             midnight-lyrics-bot
             albums/*
