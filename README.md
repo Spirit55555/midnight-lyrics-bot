@@ -7,7 +7,7 @@ A cronjob is currently the way to make this run, it needs to be setup like this.
 This is what needs to be put in the crontab file using `crontab -e`.\
 Remember to make the file `midnight-lyrics-bot` executable `chmod +x midnight-lyrics-bot`.
 
-The `INSTAGRAM_IMAGES_URL` needs to be a puplicly accessible URL on the internet, for the API to acccess and post that image.
+The `INSTAGRAM_IMAGES_URL` needs to be a publicly accessible URL on the internet, for the API to acccess and post that image.
 ```
 INSTAGRAM_ACCESS_TOKEN=
 INSTAGRAM_IMAGES_URL=
