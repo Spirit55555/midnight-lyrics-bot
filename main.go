@@ -39,6 +39,9 @@ var albums = []string{
 }
 
 func main() {
+	blueskyFlag := flag.Bool("bluesky", false, "If it should post to Bluesky")
+	threadsFlag := flag.Bool("threads", false, "If it should post to Threads")
+	instagramFlag := flag.Bool("instagram", false, "If it should post to Instagram")
 	generateAllImagesFlag := flag.Bool("generate-all-images", false, "Generate all images (for testing only)")
 	fakeMidnightFlag := flag.Bool("fake-midnight", false, "Fake that it's midnight (for testing only)")
 	flag.Parse()
@@ -84,15 +87,15 @@ func main() {
 
 	log.Printf("Lyrics: \n%s\n", lyrics)
 
-	if os.Getenv("BOTSKY_HANDLE") != "" && os.Getenv("BOTSKY_APPKEY") != "" {
+	if *blueskyFlag && os.Getenv("BOTSKY_HANDLE") != "" && os.Getenv("BOTSKY_APPKEY") != "" {
 		postToBluesky(lyrics, reply, link)
 	}
 
-	if os.Getenv("THREADS_ACCESS_TOKEN") != "" {
+	if *threadsFlag && os.Getenv("THREADS_ACCESS_TOKEN") != "" {
 		postToThreads(lyrics, reply, link)
 	}
 
-	if os.Getenv("INSTAGRAM_ACCESS_TOKEN") != "" && os.Getenv("INSTAGRAM_IMAGES_URL") != "" {
+	if *instagramFlag && os.Getenv("INSTAGRAM_ACCESS_TOKEN") != "" && os.Getenv("INSTAGRAM_IMAGES_URL") != "" {
 		imagePath := generateImage(randomAlbumName, album, song, lyrics)
 		postToInstagram(lyrics, reply, imagePath)
 	}
