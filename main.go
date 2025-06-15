@@ -91,6 +91,11 @@ func main() {
 	if os.Getenv("THREADS_ACCESS_TOKEN") != "" {
 		postToThreads(lyrics, reply, link)
 	}
+
+	if os.Getenv("INSTAGRAM_ACCESS_TOKEN") != "" && os.Getenv("INSTAGRAM_IMAGES_URL") != "" {
+		imagePath := generateImage(randomAlbumName, album, song, lyrics)
+		postToInstagram(lyrics, reply, imagePath)
+	}
 }
 
 func getAlbum(name string) (album Album) {
