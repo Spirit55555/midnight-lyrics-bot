@@ -37,7 +37,7 @@ func generateImage(albumName string, album Album, song Song, lyrics string, fina
 	dc.LoadFontFace("fonts/Optiker-K.ttf", 40)
 	dc.DrawStringWrapped(title, float64(MARGIN), float64(HEIGHT-175), 0, 0, 800, 1.5, gg.AlignLeft)
 
-	dc.SavePNG(finalImagePath)
+	dc.SaveJPG(finalImagePath+".jpg", 100)
 }
 
 func generateAllImages() {
@@ -60,7 +60,7 @@ func generateAllImages() {
 
 				hash := sha1.Sum([]byte(lyrics))
 
-				generateImage(albumName, album, song, lyrics, filepath.Join(songFolder, hex.EncodeToString(hash[:])+".png"))
+				generateImage(albumName, album, song, lyrics, filepath.Join(songFolder, hex.EncodeToString(hash[:])))
 			}
 		}
 	}
