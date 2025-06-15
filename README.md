@@ -24,5 +24,5 @@ You need to specify what services to run it on, this can be done using the follo
 
 
 ## Arguments
-These can be used when ruinning the binary
+These can be used when running the binary
 - -generate-all-images - Used to generate all the images needed for the Instagram part of the bot
