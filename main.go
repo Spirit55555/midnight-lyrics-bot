@@ -54,7 +54,7 @@ func main() {
 
 	//Special post at midnight
 	if (time.Now().Hour() == 0 && time.Now().Minute() == 0) || *fakeMidnightFlag {
-		randomAlbumName = "midnight_bot"
+		randomAlbumName = "songs"
 		song = Song{"Midnight", "", "We are one beating heart", "💓", ""}
 		album = Album{"Midnight", []Song{song}}
 	}
