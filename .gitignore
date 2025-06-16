@@ -8,12 +8,14 @@
 *
 
 # But not these files...
+!/.dockerignore
 !/.gitignore
 
 !*.go
 !go.sum
 !go.mod
 
+!Dockerfile
 !README.md
 !LICENSE
 

@@ -1,0 +1,8 @@
+.dockerignore
+.git
+.github
+Dockerfile
+generated_images
+LICENSE
+midnight-lyrics-bot
+README.md
