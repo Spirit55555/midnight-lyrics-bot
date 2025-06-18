@@ -6,6 +6,7 @@ The following platforms are supported:
 - Instagram
 - Threads
 
+Special thanks to [Carina](https://github.com/carina092) for the design of the images
 ## Bluesky
 
 Command line flag: `-bluesky`
