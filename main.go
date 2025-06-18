@@ -15,8 +15,9 @@ import (
 const SPOTIFY_TRACK_LINK = "https://open.spotify.com/track/%s"
 
 type Album struct {
-	Title string
-	Songs []Song
+	Title    string
+	Songs    []Song
+	Hashtags []string
 }
 
 type Song struct {
@@ -25,6 +26,7 @@ type Song struct {
 	Lyrics    string
 	Emoji     string
 	Link      string
+	Hashtags  []string
 }
 
 var albums = []string{
@@ -58,16 +60,23 @@ func main() {
 	//Special post at midnight
 	if (time.Now().Hour() == 0 && time.Now().Minute() == 0) || *fakeMidnightFlag {
 		randomAlbumName = "songs"
-		song = Song{"Midnight", "", "We are one beating heart", "💓", ""}
-		album = Album{"Midnight", []Song{song}}
+		song = Song{"Midnight", "", "We are one beating heart", "💓", "", []string{}}
+		album = Album{"Midnight", []Song{song}, []string{}}
 	}
 
 	lyricParts := strings.Split(song.Lyrics, "|")
 	lyrics := lyricParts[rand.Intn(len(lyricParts))]
 
 	var reply, link string
+	var hashtags []string
 
 	log.Printf("Album title: %s\n", album.Title)
+
+	if len(album.Hashtags) > 0 {
+		log.Printf("Album hashtags: %s\n", getHashtagsAsString(album.Hashtags))
+		hashtags = append(hashtags, album.Hashtags...)
+	}
+
 	log.Printf("Song title: %s\n", song.Title)
 
 	if song.SpotifyID != "" {
@@ -85,10 +94,15 @@ func main() {
 		reply = song.Emoji
 	}
 
+	if len(song.Hashtags) > 0 {
+		log.Printf("Song hashtags: %s\n", getHashtagsAsString(song.Hashtags))
+		hashtags = append(hashtags, song.Hashtags...)
+	}
+
 	log.Printf("Lyrics: \n%s\n", lyrics)
 
 	if *blueskyFlag && os.Getenv("BOTSKY_HANDLE") != "" && os.Getenv("BOTSKY_APPKEY") != "" {
-		postToBluesky(lyrics, reply, link)
+		postToBluesky(lyrics, reply, link, hashtags)
 	}
 
 	if *threadsFlag && os.Getenv("THREADS_ACCESS_TOKEN") != "" {
@@ -97,7 +111,7 @@ func main() {
 
 	if *instagramFlag && os.Getenv("INSTAGRAM_ACCESS_TOKEN") != "" && os.Getenv("INSTAGRAM_IMAGES_URL") != "" {
 		imagePath := generateImage(randomAlbumName, album, song, lyrics)
-		postToInstagram(lyrics, reply, imagePath)
+		postToInstagram(lyrics, reply, imagePath, hashtags)
 	}
 }
 
@@ -113,4 +127,8 @@ func getAlbum(name string) (album Album) {
 	}
 
 	return album
+}
+
+func getHashtagsAsString(hashtags []string) (hashtagString string) {
+	return "#" + strings.Join(hashtags, " #")
 }

@@ -7,7 +7,7 @@ import (
 	"github.com/davhofer/botsky/pkg/botsky"
 )
 
-func postToBluesky(post, reply, link string) {
+func postToBluesky(post, reply, link string, hashtags []string) {
 	handle, appkey, err := botsky.GetEnvCredentials()
 
 	if err != nil {
@@ -31,7 +31,7 @@ func postToBluesky(post, reply, link string) {
 
 	log.Println("Bluesky authentication successful")
 
-	pb := botsky.NewPostBuilder(post).AddLanguage("en-US")
+	pb := botsky.NewPostBuilder(post).AddLanguage("en-US").AddTags(hashtags)
 
 	if link != "" {
 		pb = pb.AddEmbedLink(link)
