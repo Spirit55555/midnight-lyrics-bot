@@ -8,100 +8,1088 @@
 			"title": "Golden Gate",
 			"spotify_id": "6S10TQTWVy1Zf3bscMFBlU",
 			"emoji": "🌉",
-			"lyrics": "We got married under the Golden Gate\nThen we got drunk in the Upper Haight|It was a sunny day\nAll our friends got laid\nAnd when we got a little older we moved away|Took I-80 to New York City\nIt's a long damn way but it sure is pretty|We ran out of gas\nNear Colfax\nAnd delivered our first child 9 months after that|And I just called to say\nI know you're always sitting in the barrio waiting|There will come a day\nAnd it'll be easier to fly away than it will be to stay|Lived in a New York studio\n'Til we left the city for a modest home|A Springsteen song\nA whole life long\nA breeze that lifts your head once before it's gone|Time will come and shift its weight\nThe laugh lines, bruised knees, birthday cake\nAnd when I die I'll see your face in a sun dress on a Saturday|And I just called to say\nI know you're always sitting in the barrio waiting|I know that there will come a day\nAnd it'll be easier to fly away than it will be to stay",
 			"hashtags": [
 				"goldengate"
+			],
+			"lyrics": [
+				[
+					"We got married under the Golden Gate",
+					"Then we got drunk in the Upper Haight"
+				],
+				[
+					"It was a sunny day",
+					"All our friends got laid",
+					"And when we got a little older we moved away"
+				],
+				[
+					"Took I-80 to New York City",
+					"It's a long damn way but it sure is pretty"
+				],
+				[
+					"We ran out of gas",
+					"Near Colfax",
+					"And delivered our first child 9 months after that"
+				],
+				[
+					"And I just called to say",
+					"I know you're always sitting in the barrio waiting"
+				],
+				[
+					"There will come a day",
+					"And it'll be easier to fly away than it will be to stay"
+				],
+				[
+					"Lived in a New York studio",
+					"'Til we left the city for a modest home"
+				],
+				[
+					"A Springsteen song",
+					"A whole life long",
+					"A breeze that lifts your head once before it's gone"
+				],
+				[
+					"Time will come and shift its weight",
+					"The laugh lines, bruised knees, birthday cake",
+					"And when I die I'll see your face in a sun dress on a Saturday"
+				],
+				[
+					"And I just called to say",
+					"I know you're always sitting in the barrio waiting"
+				],
+				[
+					"I know that there will come a day",
+					"And it'll be easier to fly away than it will be to stay"
+				]
 			]
 		},
 		{
 			"title": "Brooklyn, Friday, Love",
 			"spotify_id": "5jcFliqbwOsdti7TIzMKHo",
-			"lyrics": "Day-trader in a tie-dye jumpsuit\nAnd a gutter punk kid with a neck tattoo\nHooking up at the unisex bathroom|It was Brooklyn\nit was Friday\nit was love|Across the bar sat the hip-hop purist\nArguing with the jazz obscurists|And in the corner were the terrified tourists\nBrooklyn. Friday. Love.|Angel choirs on the corner all night\nSing Johnny Cash and Jackson 5|Little heaven you can stumble into\nWe got your invite tonight|Don't try to fight it\nOh, it's just Brooklyn on a Friday|Don't try to fight it\nOh, it's just Brooklyn on a Friday|They come from Mississippi and La La Land\nNew wave hippies and the pop goth glam\nIt's just 'cause parents don't understand|It was Brooklyn\nIt was Friday\nIt was love|From this roof you can see the stars\nWe are the left bank dreamers|And the avant garde\nI'll sing my borrowed song on your borrowed guitar|It was Brooklyn\nIt was Friday\nIt was love|Angel choirs on the midnight G train\nSome Beastie Boys and Kurt Cobain|Revolution you can learn to dance to\nWith a friendly face on the way|Don't try to fight it\nOh, it's just Brooklyn on a Friday|Don't try to fight it\nOh, it's just Brooklyn on a Friday|Bushwick Avenue\nBedford Avenue\nFranklin Avenue|I'm on my way\nWhere are you|Don't try to fight it\nOh, it's just Brooklyn on a Friday|Don't try to fight it\nOh, it's just Brooklyn on a Friday|Don't try to fight it\nOh, it's just Brooklyn on a Friday|Don't try to fight it\nOh, it's just Brooklyn on a Friday|It's just Brooklyn on a Friday|It's just Brooklyn on a Friday\nBushwick Avenue|It's just Brooklyn on a Friday\nBedford Avenue|It's just Brooklyn on a Friday\nFranklin Avenue|It's just Brooklyn on a Friday\nI'm on my way|It's just Brooklyn on a Friday",
 			"hashtags": [
 				"brooklyfridaylove"
+			],
+			"lyrics": [
+				[
+					"Day-trader in a tie-dye jumpsuit",
+					"And a gutter punk kid with a neck tattoo",
+					"Hooking up at the unisex bathroom"
+				],
+				[
+					"It was Brooklyn",
+					"it was Friday",
+					"it was love"
+				],
+				[
+					"Across the bar sat the hip-hop purist",
+					"Arguing with the jazz obscurists"
+				],
+				[
+					"And in the corner were the terrified tourists",
+					"Brooklyn. Friday. Love."
+				],
+				[
+					"Angel choirs on the corner all night",
+					"Sing Johnny Cash and Jackson 5"
+				],
+				[
+					"Little heaven you can stumble into",
+					"We got your invite tonight"
+				],
+				[
+					"Don't try to fight it",
+					"Oh, it's just Brooklyn on a Friday"
+				],
+				[
+					"Don't try to fight it",
+					"Oh, it's just Brooklyn on a Friday"
+				],
+				[
+					"They come from Mississippi and La La Land",
+					"New wave hippies and the pop goth glam",
+					"It's just 'cause parents don't understand"
+				],
+				[
+					"It was Brooklyn",
+					"It was Friday",
+					"It was love"
+				],
+				[
+					"From this roof you can see the stars",
+					"We are the left bank dreamers"
+				],
+				[
+					"And the avant garde",
+					"I'll sing my borrowed song on your borrowed guitar"
+				],
+				[
+					"It was Brooklyn",
+					"It was Friday",
+					"It was love"
+				],
+				[
+					"Angel choirs on the midnight G train",
+					"Some Beastie Boys and Kurt Cobain"
+				],
+				[
+					"Revolution you can learn to dance to",
+					"With a friendly face on the way"
+				],
+				[
+					"Don't try to fight it",
+					"Oh, it's just Brooklyn on a Friday"
+				],
+				[
+					"Don't try to fight it",
+					"Oh, it's just Brooklyn on a Friday"
+				],
+				[
+					"Bushwick Avenue",
+					"Bedford Avenue",
+					"Franklin Avenue"
+				],
+				[
+					"I'm on my way",
+					"Where are you"
+				],
+				[
+					"Don't try to fight it",
+					"Oh, it's just Brooklyn on a Friday"
+				],
+				[
+					"Don't try to fight it",
+					"Oh, it's just Brooklyn on a Friday"
+				],
+				[
+					"Don't try to fight it",
+					"Oh, it's just Brooklyn on a Friday"
+				],
+				[
+					"Don't try to fight it",
+					"Oh, it's just Brooklyn on a Friday"
+				],
+				[
+					"It's just Brooklyn on a Friday"
+				],
+				[
+					"It's just Brooklyn on a Friday",
+					"Bushwick Avenue"
+				],
+				[
+					"It's just Brooklyn on a Friday",
+					"Bedford Avenue"
+				],
+				[
+					"It's just Brooklyn on a Friday",
+					"Franklin Avenue"
+				],
+				[
+					"It's just Brooklyn on a Friday",
+					"I'm on my way"
+				],
+				[
+					"It's just Brooklyn on a Friday"
+				]
 			]
 		},
 		{
 			"title": "Heartbeat",
 			"spotify_id": "2hj7EbKUGH0xtAzv2q22dZ",
 			"emoji": "💓",
-			"lyrics": "If the world is made out of love\nThen the pain is proof that it isn’t done|When you’re empty you can use me up\nYou won’t run out there is love enough|Everybody wants to walk away sometimes\nSome believe they can fly|Either way,\nComing down is still a hell of a ride|If you can feel your heartbeat\nYou’re not done yet\nYou can’t be|If it hurts, it’s working\nThere is love enough\nFor you and me|If the world is made out of love\nThen a heart can change in anyone|I was nearly dead when you shared your cup\nYou’re the proof to me there is love enough|Everybody wants to walk away sometimes\nFools believe they can fly|Either way\nComing down is still a hell of a ride|If you can feel your heartbeat\nYou’re not done yet\nYou can’t be|If it hurts, it’s working\nThere is love enough\nFor you and me|If you can feel your heartbeat\nYou’re not done yet\nYou can’t be|Just keep going\nThere is love enough\nFor you and me|If the world is made out of us\nAll our shadows suggest a sun|Every desert heart that wants the flood\nCome and bring your need\nThere is love enough|Keep going ‘cause we can’t go back\nKeep going ‘cause we can’t go back\nKeep going ‘cause we can’t go back|If you can feel your heartbeat\nYou’re not done yet\nYou can’t be|If it hurts, it’s working\nThere is love enough\nFor you and me|If you can feel your heartbeat\nYou’re not done yet\nYou can’t be|Just keep going\nThere is love enough\nFor you and me",
 			"hashtags": [
 				"heartbeat"
+			],
+			"lyrics": [
+				[
+					"If the world is made out of love",
+					"Then the pain is proof that it isn’t done"
+				],
+				[
+					"When you’re empty you can use me up",
+					"You won’t run out there is love enough"
+				],
+				[
+					"Everybody wants to walk away sometimes",
+					"Some believe they can fly"
+				],
+				[
+					"Either way,",
+					"Coming down is still a hell of a ride"
+				],
+				[
+					"If you can feel your heartbeat",
+					"You’re not done yet",
+					"You can’t be"
+				],
+				[
+					"If it hurts, it’s working",
+					"There is love enough",
+					"For you and me"
+				],
+				[
+					"If the world is made out of love",
+					"Then a heart can change in anyone"
+				],
+				[
+					"I was nearly dead when you shared your cup",
+					"You’re the proof to me there is love enough"
+				],
+				[
+					"Everybody wants to walk away sometimes",
+					"Fools believe they can fly"
+				],
+				[
+					"Either way",
+					"Coming down is still a hell of a ride"
+				],
+				[
+					"If you can feel your heartbeat",
+					"You’re not done yet",
+					"You can’t be"
+				],
+				[
+					"If it hurts, it’s working",
+					"There is love enough",
+					"For you and me"
+				],
+				[
+					"If you can feel your heartbeat",
+					"You’re not done yet",
+					"You can’t be"
+				],
+				[
+					"Just keep going",
+					"There is love enough",
+					"For you and me"
+				],
+				[
+					"If the world is made out of us",
+					"All our shadows suggest a sun"
+				],
+				[
+					"Every desert heart that wants the flood",
+					"Come and bring your need",
+					"There is love enough"
+				],
+				[
+					"Keep going ‘cause we can’t go back",
+					"Keep going ‘cause we can’t go back",
+					"Keep going ‘cause we can’t go back"
+				],
+				[
+					"If you can feel your heartbeat",
+					"You’re not done yet",
+					"You can’t be"
+				],
+				[
+					"If it hurts, it’s working",
+					"There is love enough",
+					"For you and me"
+				],
+				[
+					"If you can feel your heartbeat",
+					"You’re not done yet",
+					"You can’t be"
+				],
+				[
+					"Just keep going",
+					"There is love enough",
+					"For you and me"
+				]
 			]
 		},
 		{
 			"title": "A Place of Her own",
 			"spotify_id": "5QfsK0Zr0kpsLlPTNZ3VBW",
-			"lyrics": "She got a job at a diner in the South Slope\nIt's a nice place in its own way|She had to move back to Queens\nwith her mom though\nShe takes the F train\nIt's a long way|Charlie's walking out\nShe knows that he'd be proud|She wakes up early in the morning for the F train\nShe's making her way|She's making her pay in the South Slope\nIt's a nice place|He left a hole the size of the world\nAnd she ain't never had nothing|Wasn't asking for gold\nJust a place of her own|Place of her own\nPlace of her own|Carve out a space\nJust enough to breathe\nFor the long nights of uncertainty|Place of her own\nPlace of her own\nPlace of her own|Summer is so hot\nWinter is so cold\nOn the F train to the South Slope|And most are people okay in their own way\nIt's a nice place\nBut it's a long way|He left a hole the size of the world\nAnd she ain't never had nothing\nWasn't asking for gold|Just a place of her own\nJust a place of her own\nJust a place of her own|Carve out a space\nJust enough to breathe\nFor the long nights of uncertainty|Place of her own\nPlace of her own\nPlace of her own|She says, 'yeah you leave\nYeah you go\nWhere do I belong\nWhere do I belong'| Yeah you leave\nYeah you go\nWhere do I belong|She says, 'yeah you leave\nYeah you go\nWhere do I belong\nWhere do I belong'|Yeah you leave\nYeah you go\nWhere do I belong\nWhere do I belong|He left a hole the size of the world\nAnd she ain't never had nothing\nWasn't asking for gold|Just a place of her own\nJust a place of her own\nJust a place of her own|Carve out a space just enough to breathe\nFor the long nights of uncertainty|Place of her own\nPlace of her own\nPlace of her own",
 			"hashtags": [
 				"aplaceofherown"
+			],
+			"lyrics": [
+				[
+					"She got a job at a diner in the South Slope",
+					"It's a nice place in its own way"
+				],
+				[
+					"She had to move back to Queens",
+					"with her mom though",
+					"She takes the F train",
+					"It's a long way"
+				],
+				[
+					"Charlie's walking out",
+					"She knows that he'd be proud"
+				],
+				[
+					"She wakes up early in the morning for the F train",
+					"She's making her way"
+				],
+				[
+					"She's making her pay in the South Slope",
+					"It's a nice place"
+				],
+				[
+					"He left a hole the size of the world",
+					"And she ain't never had nothing"
+				],
+				[
+					"Wasn't asking for gold",
+					"Just a place of her own"
+				],
+				[
+					"Place of her own",
+					"Place of her own"
+				],
+				[
+					"Carve out a space",
+					"Just enough to breathe",
+					"For the long nights of uncertainty"
+				],
+				[
+					"Place of her own",
+					"Place of her own",
+					"Place of her own"
+				],
+				[
+					"Summer is so hot",
+					"Winter is so cold",
+					"On the F train to the South Slope"
+				],
+				[
+					"And most are people okay in their own way",
+					"It's a nice place",
+					"But it's a long way"
+				],
+				[
+					"He left a hole the size of the world",
+					"And she ain't never had nothing",
+					"Wasn't asking for gold"
+				],
+				[
+					"Just a place of her own",
+					"Just a place of her own",
+					"Just a place of her own"
+				],
+				[
+					"Carve out a space",
+					"Just enough to breathe",
+					"For the long nights of uncertainty"
+				],
+				[
+					"Place of her own",
+					"Place of her own",
+					"Place of her own"
+				],
+				[
+					"She says, 'yeah you leave",
+					"Yeah you go",
+					"Where do I belong",
+					"Where do I belong'"
+				],
+				[
+					" Yeah you leave",
+					"Yeah you go",
+					"Where do I belong"
+				],
+				[
+					"She says, 'yeah you leave",
+					"Yeah you go",
+					"Where do I belong",
+					"Where do I belong'"
+				],
+				[
+					"Yeah you leave",
+					"Yeah you go",
+					"Where do I belong",
+					"Where do I belong"
+				],
+				[
+					"He left a hole the size of the world",
+					"And she ain't never had nothing",
+					"Wasn't asking for gold"
+				],
+				[
+					"Just a place of her own",
+					"Just a place of her own",
+					"Just a place of her own"
+				],
+				[
+					"Carve out a space just enough to breathe",
+					"For the long nights of uncertainty"
+				],
+				[
+					"Place of her own",
+					"Place of her own",
+					"Place of her own"
+				]
 			]
 		},
 		{
 			"title": "Heroes",
 			"spotify_id": "24B4TFlEOJzzqb33L4sbI5",
-			"lyrics": "One year closer to my death\nI still haven't found what I'm looking for yet\nIt's not big blue eyes, long blonde hair\nIt's not a million dollars or a secret prayer|Another year asleep under the spell\nSometimes it's hard to remember\n'cause you wear it so well|Made my home in the underground\n'Cause nothing grows in the wasteland now|Are we just too easily pleased\nHere with the pundits and sages|Witty and pretty and shitty and high\nAlmost getting by\nAlmost getting by|I'm ready to live my life again\nLike there's a chance worth taking\nReady to love you like I can\nLike my heart's not breaking|Wherever you are, wherever you are\nRed, white, and bruised\nI'll keep waiting\nThe missing hero is you|Broke down on the 101\nJust bad luck believers\nBlinded by the sun|Yeah, we chased our dreams\nlike you taught us how\nBut nothing grows in the wasteland now|Are we just too easily pleased\nHere with the pundits and sages|Witty and pretty and shitty and high\nAlmost getting by\nAlmost getting by|I'm ready to live my life again\nLike there's a chance worth taking\nReady to love you like I can\nLike my heart's not breaking|Wherever you are, wherever you are\nRed, white, and bruised\nI'll keep waiting\nBut the missing hero is you",
 			"hashtags": [
 				"heroes"
+			],
+			"lyrics": [
+				[
+					"One year closer to my death",
+					"I still haven't found what I'm looking for yet",
+					"It's not big blue eyes, long blonde hair",
+					"It's not a million dollars or a secret prayer"
+				],
+				[
+					"Another year asleep under the spell",
+					"Sometimes it's hard to remember",
+					"'cause you wear it so well"
+				],
+				[
+					"Made my home in the underground",
+					"'Cause nothing grows in the wasteland now"
+				],
+				[
+					"Are we just too easily pleased",
+					"Here with the pundits and sages"
+				],
+				[
+					"Witty and pretty and shitty and high",
+					"Almost getting by",
+					"Almost getting by"
+				],
+				[
+					"I'm ready to live my life again",
+					"Like there's a chance worth taking",
+					"Ready to love you like I can",
+					"Like my heart's not breaking"
+				],
+				[
+					"Wherever you are, wherever you are",
+					"Red, white, and bruised",
+					"I'll keep waiting",
+					"The missing hero is you"
+				],
+				[
+					"Broke down on the 101",
+					"Just bad luck believers",
+					"Blinded by the sun"
+				],
+				[
+					"Yeah, we chased our dreams",
+					"like you taught us how",
+					"But nothing grows in the wasteland now"
+				],
+				[
+					"Are we just too easily pleased",
+					"Here with the pundits and sages"
+				],
+				[
+					"Witty and pretty and shitty and high",
+					"Almost getting by",
+					"Almost getting by"
+				],
+				[
+					"I'm ready to live my life again",
+					"Like there's a chance worth taking",
+					"Ready to love you like I can",
+					"Like my heart's not breaking"
+				],
+				[
+					"Wherever you are, wherever you are",
+					"Red, white, and bruised",
+					"I'll keep waiting",
+					"But the missing hero is you"
+				]
 			]
 		},
 		{
 			"title": "Heart Worth Breaking",
 			"spotify_id": "1JMzrJCU3dIR0TDEhEDDe5",
-			"lyrics": "All I want is to feel how deep it really is\nSomehow we always get lost in the bullshit\nAnother night getting high in your dad's car|I think maybe we're bigger than we think we are\nBaby you better than you think you are|I just want to have a heart worth breaking\nThat's all I really wanna say|I'm sorry my hands are shaking\nI don't normally feel this way\nBut my whole life is just the chances I'm not taking|I just wanna have a heart\nI just wanna have a heart\nI just wanna have a heart worth breaking|I just wanna have a heart\nI just wanna have a heart\nI just wanna have a heart worth breaking|All I want is to feel this moment\nYou think happiness is somewhere else|I just wanna always treat you well but\nMaybe first I have to love myself|I don't know why you love me\nI'm gonna try and love me|I just want to have a heart worth breaking\nThat's all I really wanna say|I'm sorry my hands are shaking\nI don't normally feel this way\nBut my whole life is just the chances I'm not taking|I just wanna have a heart\nI just wanna have a heart\nI just wanna have a heart worth breaking|I just wanna have a heart\nI just wanna have a heart\nI just wanna have a heart worth breaking|I just want to have a heart worth breaking\nThat's all I really wanna say|I'm sorry my hands are shaking\nI don't normally feel this way\nBut my whole life is just the chances I'm not taking|I just wanna have a heart\nI just wanna have a heart\nI just wanna have a heart worth breaking|I just wanna have a heart\nI just wanna have a heart\nI just wanna have a heart worth breaking",
 			"hashtags": [
 				"heartworthbreaking"
+			],
+			"lyrics": [
+				[
+					"All I want is to feel how deep it really is",
+					"Somehow we always get lost in the bullshit",
+					"Another night getting high in your dad's car"
+				],
+				[
+					"I think maybe we're bigger than we think we are",
+					"Baby you better than you think you are"
+				],
+				[
+					"I just want to have a heart worth breaking",
+					"That's all I really wanna say"
+				],
+				[
+					"I'm sorry my hands are shaking",
+					"I don't normally feel this way",
+					"But my whole life is just the chances I'm not taking"
+				],
+				[
+					"I just wanna have a heart",
+					"I just wanna have a heart",
+					"I just wanna have a heart worth breaking"
+				],
+				[
+					"I just wanna have a heart",
+					"I just wanna have a heart",
+					"I just wanna have a heart worth breaking"
+				],
+				[
+					"All I want is to feel this moment",
+					"You think happiness is somewhere else"
+				],
+				[
+					"I just wanna always treat you well but",
+					"Maybe first I have to love myself"
+				],
+				[
+					"I don't know why you love me",
+					"I'm gonna try and love me"
+				],
+				[
+					"I just want to have a heart worth breaking",
+					"That's all I really wanna say"
+				],
+				[
+					"I'm sorry my hands are shaking",
+					"I don't normally feel this way",
+					"But my whole life is just the chances I'm not taking"
+				],
+				[
+					"I just wanna have a heart",
+					"I just wanna have a heart",
+					"I just wanna have a heart worth breaking"
+				],
+				[
+					"I just wanna have a heart",
+					"I just wanna have a heart",
+					"I just wanna have a heart worth breaking"
+				],
+				[
+					"I just want to have a heart worth breaking",
+					"That's all I really wanna say"
+				],
+				[
+					"I'm sorry my hands are shaking",
+					"I don't normally feel this way",
+					"But my whole life is just the chances I'm not taking"
+				],
+				[
+					"I just wanna have a heart",
+					"I just wanna have a heart",
+					"I just wanna have a heart worth breaking"
+				],
+				[
+					"I just wanna have a heart",
+					"I just wanna have a heart",
+					"I just wanna have a heart worth breaking"
+				]
 			]
 		},
 		{
 			"title": "Loved by You",
 			"spotify_id": "4vJj4R5bURvNIWFzIMMrwT",
-			"lyrics": "Keep a dream in my suitcase heart\nI sleep where I can and wake up in the dark|I keep on moving 'til I find that spark\nI got a dream in my suitcase heart|Keep a memory in a photograph\nWhen times are good\nGood times don't last|I keep on moving through and moving past\nBut I got a memory in a photograph|We were young and we were free\nTwo runaways and an impossible dream|All I want is to be loved by you\nLoved by you\nLoved by you|All I want is to be loved by you\nTo be loved by you|Keep a ghost in my suitcase heart\nShe keeps me company when things get dark|I keep on waiting for that brand new start\nI keep a ghost in my suitcase heart|We were young and we were free\nToo many ways and an impossible dream|All I want is to be loved by you\nLoved by you\nLoved by you|All I want is to be loved by you\nTo be loved by you|All I wanted was the thick and thin\nTil the ship goes down at the bitter end\nAll I wanted was the hallelu' to be loved by you|There is no place like yesterday\nWhen we're broken and completely unafraid\nThere is no place like yesterday\nExcept your waiting arms|Safe and warm\nKeep holding on\nThrough the storm\nI'm on my way|All I want is to be loved by you\nLoved by you\nLoved by you|All I want is to be loved by you\nTo be loved by you|All I wanted was the thick and thin\nTil the ship goes down at the bitter end\nAll I wanted was the hallelu' to be loved by you",
 			"hashtags": [
 				"lovedbyyou"
+			],
+			"lyrics": [
+				[
+					"Keep a dream in my suitcase heart",
+					"I sleep where I can and wake up in the dark"
+				],
+				[
+					"I keep on moving 'til I find that spark",
+					"I got a dream in my suitcase heart"
+				],
+				[
+					"Keep a memory in a photograph",
+					"When times are good",
+					"Good times don't last"
+				],
+				[
+					"I keep on moving through and moving past",
+					"But I got a memory in a photograph"
+				],
+				[
+					"We were young and we were free",
+					"Two runaways and an impossible dream"
+				],
+				[
+					"All I want is to be loved by you",
+					"Loved by you",
+					"Loved by you"
+				],
+				[
+					"All I want is to be loved by you",
+					"To be loved by you"
+				],
+				[
+					"Keep a ghost in my suitcase heart",
+					"She keeps me company when things get dark"
+				],
+				[
+					"I keep on waiting for that brand new start",
+					"I keep a ghost in my suitcase heart"
+				],
+				[
+					"We were young and we were free",
+					"Too many ways and an impossible dream"
+				],
+				[
+					"All I want is to be loved by you",
+					"Loved by you",
+					"Loved by you"
+				],
+				[
+					"All I want is to be loved by you",
+					"To be loved by you"
+				],
+				[
+					"All I wanted was the thick and thin",
+					"Til the ship goes down at the bitter end",
+					"All I wanted was the hallelu' to be loved by you"
+				],
+				[
+					"There is no place like yesterday",
+					"When we're broken and completely unafraid",
+					"There is no place like yesterday",
+					"Except your waiting arms"
+				],
+				[
+					"Safe and warm",
+					"Keep holding on",
+					"Through the storm",
+					"I'm on my way"
+				],
+				[
+					"All I want is to be loved by you",
+					"Loved by you",
+					"Loved by you"
+				],
+				[
+					"All I want is to be loved by you",
+					"To be loved by you"
+				],
+				[
+					"All I wanted was the thick and thin",
+					"Til the ship goes down at the bitter end",
+					"All I wanted was the hallelu' to be loved by you"
+				]
 			]
 		},
 		{
 			"title": "Aerostar",
 			"spotify_id": "1Scn2kXjrAyH73dWjOZ3uC",
-			"lyrics": "A forest fire\nSome careless spark\nWeren't we embers burning\nIn your mama's car?|The window warnings\nYour body carved\nA clear horizon\nIn that Aerostar|For a moment we were weightless\nTaking off our masks\nThere were angels in the canyons|But the fire moved too fast\nFor a second we were infinite|But I mistook the glow\nSuddenly the roar\nNow suddenly the undertow|And the keys to your apartment\nIn the charred remains\nAnd the kingdom of your heart bent\nWhen you wrote my name|Just needed someone to walk you home|There was a magic show\nAnd the world began\nAnd your soul stretched farther than your skin|And for a moment all was calm\nAnd I was home once\nBut now it's lost|For a moment we were weightless\nTaking off our masks\nThere were angels in the canyons|But the fire moved too fast\nFor a second we were infinite\nBut I mistook the glow|Suddenly the roar\nNow suddenly the undertow|And the keys to your apartment\nIn the charred remains\nAnd the kingdom of your heart bent\nAs you wrote my name|Just needed someone to walk you home\nNow I need someone to walk me home|Now I need someone to walk me home|And you can't go back again\nAnd the doctors did what they said they could do|And you can't go back again\nI know it's hard going through|Now I need someone to walk me home",
 			"hashtags": [
 				"aerostar"
+			],
+			"lyrics": [
+				[
+					"A forest fire",
+					"Some careless spark",
+					"Weren't we embers burning",
+					"In your mama's car?"
+				],
+				[
+					"The window warnings",
+					"Your body carved",
+					"A clear horizon",
+					"In that Aerostar"
+				],
+				[
+					"For a moment we were weightless",
+					"Taking off our masks",
+					"There were angels in the canyons"
+				],
+				[
+					"But the fire moved too fast",
+					"For a second we were infinite"
+				],
+				[
+					"But I mistook the glow",
+					"Suddenly the roar",
+					"Now suddenly the undertow"
+				],
+				[
+					"And the keys to your apartment",
+					"In the charred remains",
+					"And the kingdom of your heart bent",
+					"When you wrote my name"
+				],
+				[
+					"Just needed someone to walk you home"
+				],
+				[
+					"There was a magic show",
+					"And the world began",
+					"And your soul stretched farther than your skin"
+				],
+				[
+					"And for a moment all was calm",
+					"And I was home once",
+					"But now it's lost"
+				],
+				[
+					"For a moment we were weightless",
+					"Taking off our masks",
+					"There were angels in the canyons"
+				],
+				[
+					"But the fire moved too fast",
+					"For a second we were infinite",
+					"But I mistook the glow"
+				],
+				[
+					"Suddenly the roar",
+					"Now suddenly the undertow"
+				],
+				[
+					"And the keys to your apartment",
+					"In the charred remains",
+					"And the kingdom of your heart bent",
+					"As you wrote my name"
+				],
+				[
+					"Just needed someone to walk you home",
+					"Now I need someone to walk me home"
+				],
+				[
+					"Now I need someone to walk me home"
+				],
+				[
+					"And you can't go back again",
+					"And the doctors did what they said they could do"
+				],
+				[
+					"And you can't go back again",
+					"I know it's hard going through"
+				],
+				[
+					"Now I need someone to walk me home"
+				]
 			]
 		},
 		{
 			"title": "Change Your Heart or Die",
 			"spotify_id": "7cP0fGIedXbesOFHF6mYQK",
 			"emoji": "🔥",
-			"lyrics": "Took a lot of money to look the part\nTook a lot of pain to tame a heart\nTook a lot of years to lose my fear of flying|Took a lot of time to finally start, then it\nTook a good day to fall apart\nTook a lot of tears to lose my fear of crying\nOf crying|Change your heart or die!|Fire!\nTicking like a time bomb\nFire!\nBurning like napalm\nFire!\nWaiting at the crossroads\nHow will you survive?|Change your heart or die!|Took one look to find your mark, and it\nTook a rogue wave to blow apart|Took a wrong turn to finally find the yearning\nAnd the burning|Fire!\nTicking like a time bomb\nFire!\nBurning like napalm\nFire!\nWaiting at the crossroads\nHow will you survive?|Fire!\nTicking like a time bomb\nFire!\nBurning like napalm\nFire!\nWaiting at the crossroads\nHow will you survive?|Change your heart or die!|Fire!\nTicking like a time bomb\nFire!\nBurning like napalm\nFire!\nWaiting at the crossroads\nHow will you survive?|Fire!\nTicking like a time bomb\nFire!\nBurning like napalm\nFire!\nWaiting at the crossroads\nHow will you survive?|Change your heart or die!",
 			"hashtags": [
 				"changeyourheartordie"
+			],
+			"lyrics": [
+				[
+					"Took a lot of money to look the part",
+					"Took a lot of pain to tame a heart",
+					"Took a lot of years to lose my fear of flying"
+				],
+				[
+					"Took a lot of time to finally start, then it",
+					"Took a good day to fall apart",
+					"Took a lot of tears to lose my fear of crying",
+					"Of crying"
+				],
+				[
+					"Change your heart or die!"
+				],
+				[
+					"Fire!",
+					"Ticking like a time bomb",
+					"Fire!",
+					"Burning like napalm",
+					"Fire!",
+					"Waiting at the crossroads",
+					"How will you survive?"
+				],
+				[
+					"Change your heart or die!"
+				],
+				[
+					"Took one look to find your mark, and it",
+					"Took a rogue wave to blow apart"
+				],
+				[
+					"Took a wrong turn to finally find the yearning",
+					"And the burning"
+				],
+				[
+					"Fire!",
+					"Ticking like a time bomb",
+					"Fire!",
+					"Burning like napalm",
+					"Fire!",
+					"Waiting at the crossroads",
+					"How will you survive?"
+				],
+				[
+					"Fire!",
+					"Ticking like a time bomb",
+					"Fire!",
+					"Burning like napalm",
+					"Fire!",
+					"Waiting at the crossroads",
+					"How will you survive?"
+				],
+				[
+					"Change your heart or die!"
+				],
+				[
+					"Fire!",
+					"Ticking like a time bomb",
+					"Fire!",
+					"Burning like napalm",
+					"Fire!",
+					"Waiting at the crossroads",
+					"How will you survive?"
+				],
+				[
+					"Fire!",
+					"Ticking like a time bomb",
+					"Fire!",
+					"Burning like napalm",
+					"Fire!",
+					"Waiting at the crossroads",
+					"How will you survive?"
+				],
+				[
+					"Change your heart or die!"
+				]
 			]
 		},
 		{
 			"title": "Avalanche",
 			"spotify_id": "1kaS7vdJI1ZZ7ACK47pIxE",
-			"lyrics": "You were a whisper in the night\nAnd I loved you for a summer|But now the garden of delights lies under snow cover\nSail on in my memory|I'll wave from the shoreline\nA ship so grand you cannot believe|Disembarking on an avalanche\nFrom butterfly wings|Saw my last chance\nIn a faded dream|When it's gone\nWherever you land|Sing your song\nTake this dance\nAvalanche|We were a star-crossed fantasy\nThat was never gonna hold us\nOr our future histories|But maybe it was just to mold us\nSail on in my memory\nI'll wave from the shoreline\nA ship so grand you cannot believe|Disembarking on an avalanche\nFrom butterfly wings|Sold my last chance\nFor a faded dream|When it's gone\nWherever you land|Sing your song\nTake this dance\nAvalanche|If I had known you\nI would have told you|Would have skipped this and\nMissed this|Waterfall in slow motion\nDevotion of a love\nUnsuitable but beautiful|If I'd have known you\nI'd have come back a thousand times\nJust for the ride|Avalanche\nFrom butterfly wings|Sold my last chance\nFor a faded dream|When it's gone\nWherever you land|Sing your song\nTake this dance\nAvalanche",
 			"hashtags": [
 				"avalanche"
+			],
+			"lyrics": [
+				[
+					"You were a whisper in the night",
+					"And I loved you for a summer"
+				],
+				[
+					"But now the garden of delights lies under snow cover",
+					"Sail on in my memory"
+				],
+				[
+					"I'll wave from the shoreline",
+					"A ship so grand you cannot believe"
+				],
+				[
+					"Disembarking on an avalanche",
+					"From butterfly wings"
+				],
+				[
+					"Saw my last chance",
+					"In a faded dream"
+				],
+				[
+					"When it's gone",
+					"Wherever you land"
+				],
+				[
+					"Sing your song",
+					"Take this dance",
+					"Avalanche"
+				],
+				[
+					"We were a star-crossed fantasy",
+					"That was never gonna hold us",
+					"Or our future histories"
+				],
+				[
+					"But maybe it was just to mold us",
+					"Sail on in my memory",
+					"I'll wave from the shoreline",
+					"A ship so grand you cannot believe"
+				],
+				[
+					"Disembarking on an avalanche",
+					"From butterfly wings"
+				],
+				[
+					"Sold my last chance",
+					"For a faded dream"
+				],
+				[
+					"When it's gone",
+					"Wherever you land"
+				],
+				[
+					"Sing your song",
+					"Take this dance",
+					"Avalanche"
+				],
+				[
+					"If I had known you",
+					"I would have told you"
+				],
+				[
+					"Would have skipped this and",
+					"Missed this"
+				],
+				[
+					"Waterfall in slow motion",
+					"Devotion of a love",
+					"Unsuitable but beautiful"
+				],
+				[
+					"If I'd have known you",
+					"I'd have come back a thousand times",
+					"Just for the ride"
+				],
+				[
+					"Avalanche",
+					"From butterfly wings"
+				],
+				[
+					"Sold my last chance",
+					"For a faded dream"
+				],
+				[
+					"When it's gone",
+					"Wherever you land"
+				],
+				[
+					"Sing your song",
+					"Take this dance",
+					"Avalanche"
+				]
 			]
 		},
 		{
 			"title": "Souvenir",
 			"spotify_id": "5s9eoyEyoeEj3fqtt0pQoQ",
-			"lyrics": "Souvenirs of pioneers\nProof that the West was won\nThese rotten beams will tumble down|Replaced by the newer ones\nWeren't we fine gunfighters in another time?\nWere we celebrated writers after the war?\nAfter the war|History repeats itself\nBut I don't know what for\nI got all these souvenirs\nBut I can't seem to find you anymore|Souvenir\nNow you're gone, now you're gone\nYou were here\nI'm moving on, I'm moving on|How does it feel\nAfter I'm gone\nTo be the ghost in the picture as it disappears\nSouvenir|Souvenirs of privateers\nOur black flag in the sun\nWas taken down and passed around\nAnd put in a museum|Weren't we fat cat tycoons in the Gilded Age\nIn flower children costumes in the Bay\nHigh as a summer day|History repeats itself\nBut I don't know what for\nI got all these souvenirs\nBut I can't seem to find you anymore|Souvenir\nNow you're gone, now you're gone\nYou were here\nI'm moving on, I'm moving on|How does it feel\nAfter I'm gone\nTo be the ghost in the picture as it disappears|Our past is a foreign country\nThe neighborhoods have changed\nI was the fool who got lucky\nYou were the fool who flew straight|Souvenir\nNow you're gone, now you're gone\nYou were here\nI'm moving on, I'm moving on|How does it feel\nAfter I'm gone\nTo be the ghost in the picture as it disappears\nSouvenir|The past is a foreign country\nOur neighborhood is changed\nAnd I was the fool who got lucky\nYou were the fool who flew straight",
 			"hashtags": [
 				"souvenir"
+			],
+			"lyrics": [
+				[
+					"Souvenirs of pioneers",
+					"Proof that the West was won",
+					"These rotten beams will tumble down"
+				],
+				[
+					"Replaced by the newer ones",
+					"Weren't we fine gunfighters in another time?",
+					"Were we celebrated writers after the war?",
+					"After the war"
+				],
+				[
+					"History repeats itself",
+					"But I don't know what for",
+					"I got all these souvenirs",
+					"But I can't seem to find you anymore"
+				],
+				[
+					"Souvenir",
+					"Now you're gone, now you're gone",
+					"You were here",
+					"I'm moving on, I'm moving on"
+				],
+				[
+					"How does it feel",
+					"After I'm gone",
+					"To be the ghost in the picture as it disappears",
+					"Souvenir"
+				],
+				[
+					"Souvenirs of privateers",
+					"Our black flag in the sun",
+					"Was taken down and passed around",
+					"And put in a museum"
+				],
+				[
+					"Weren't we fat cat tycoons in the Gilded Age",
+					"In flower children costumes in the Bay",
+					"High as a summer day"
+				],
+				[
+					"History repeats itself",
+					"But I don't know what for",
+					"I got all these souvenirs",
+					"But I can't seem to find you anymore"
+				],
+				[
+					"Souvenir",
+					"Now you're gone, now you're gone",
+					"You were here",
+					"I'm moving on, I'm moving on"
+				],
+				[
+					"How does it feel",
+					"After I'm gone",
+					"To be the ghost in the picture as it disappears"
+				],
+				[
+					"Our past is a foreign country",
+					"The neighborhoods have changed",
+					"I was the fool who got lucky",
+					"You were the fool who flew straight"
+				],
+				[
+					"Souvenir",
+					"Now you're gone, now you're gone",
+					"You were here",
+					"I'm moving on, I'm moving on"
+				],
+				[
+					"How does it feel",
+					"After I'm gone",
+					"To be the ghost in the picture as it disappears",
+					"Souvenir"
+				],
+				[
+					"The past is a foreign country",
+					"Our neighborhood is changed",
+					"And I was the fool who got lucky",
+					"You were the fool who flew straight"
+				]
 			]
 		},
 		{
 			"title": "Photograph",
 			"spotify_id": "1yC47lzJ2ZFJyKtCuQI76K",
 			"emoji": "📸",
-			"lyrics": "Take a picture of your life\nPut it on your bedroom wall\nCheck on it from time to time\nMake sure that you don't lose heart|Take a picture of your life\nFrame by frame\nProfiles in courage\nName by name|Put a picture of your sadness\nNext to one from better days\nIt's a holy madness\nThere's holy joy and there's holy pain|You came to bum a smoke\nWe stayed together as the seasons passed\nYou left with a story\nAnd a shoebox of photographs|Lightning\nThe cameras are flashing\nThe moments are passing\nThe proof of it all|Lightning\nPetty and tragic\nThe horror\nThe magic\nRemember it all",
 			"hashtags": [
 				"photograph"
+			],
+			"lyrics": [
+				[
+					"Take a picture of your life",
+					"Put it on your bedroom wall",
+					"Check on it from time to time",
+					"Make sure that you don't lose heart"
+				],
+				[
+					"Take a picture of your life",
+					"Frame by frame",
+					"Profiles in courage",
+					"Name by name"
+				],
+				[
+					"Put a picture of your sadness",
+					"Next to one from better days",
+					"It's a holy madness",
+					"There's holy joy and there's holy pain"
+				],
+				[
+					"You came to bum a smoke",
+					"We stayed together as the seasons passed",
+					"You left with a story",
+					"And a shoebox of photographs"
+				],
+				[
+					"Lightning",
+					"The cameras are flashing",
+					"The moments are passing",
+					"The proof of it all"
+				],
+				[
+					"Lightning",
+					"Petty and tragic",
+					"The horror",
+					"The magic",
+					"Remember it all"
+				]
 			]
 		}
 	]

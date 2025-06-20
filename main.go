@@ -18,17 +18,17 @@ const SPOTIFY_TRACK_LINK = "https://open.spotify.com/track/%s"
 
 type Album struct {
 	Title    string
-	Songs    []Song
 	Hashtags []string
+	Songs    []Song
 }
 
 type Song struct {
 	Title     string
 	SpotifyID string `json:"spotify_id"`
-	Lyrics    string
-	Emoji     string
 	Link      string
+	Emoji     string
 	Hashtags  []string
+	Lyrics    [][]string
 }
 
 var albums = []string{
@@ -81,12 +81,11 @@ func main() {
 	//Special post at midnight
 	if (time.Now().Hour() == 0 && time.Now().Minute() == 0) || *fakeMidnightFlag {
 		albumName = "songs"
-		song = Song{"Midnight", "", "We are one beating heart", "💓", "", []string{}}
-		album = Album{"Midnight", []Song{song}, []string{}}
+		song = Song{"Midnight", "", "", "💓", []string{}, [][]string{{"We are one beating heart"}}}
+		album = Album{"Midnight", []string{}, []Song{song}}
 	}
 
-	lyricParts := strings.Split(song.Lyrics, "|")
-	lyrics := lyricParts[rand.Intn(len(lyricParts))]
+	lyrics := strings.Join(song.Lyrics[rand.Intn(len(song.Lyrics))], "\n")
 
 	var reply, link string
 	var hashtags []string

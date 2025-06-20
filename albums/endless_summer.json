@@ -7,85 +7,622 @@
 		{
 			"title": "Endless Summer",
 			"spotify_id": "2jq5avJCdvIzelo7PiZNjW",
-			"lyrics": "Should have known at the end of summer\nThe innocence fades and the weak become stronger|Should have known at the end of the summer\nI'd be lost without you|The skyline looked like a stained glass window\nThe city sang such mad crescendo|Four bare feet on a rain soaked street\nSummer airbrushed fever dreams|Disappeared in a camera flash\nWhy do the bad girls never last|Lost in gin and lemonade\nElectrospins and the mermaid parade|Four quartets and no regrets\nExcept for the polaroids i left|You were just some spell i was under\nThat endless summer",
 			"hashtags": [
 				"endlesssummer"
+			],
+			"lyrics": [
+				[
+					"Should have known at the end of summer",
+					"The innocence fades and the weak become stronger"
+				],
+				[
+					"Should have known at the end of the summer",
+					"I'd be lost without you"
+				],
+				[
+					"The skyline looked like a stained glass window",
+					"The city sang such mad crescendo"
+				],
+				[
+					"Four bare feet on a rain soaked street",
+					"Summer airbrushed fever dreams"
+				],
+				[
+					"Disappeared in a camera flash",
+					"Why do the bad girls never last"
+				],
+				[
+					"Lost in gin and lemonade",
+					"Electrospins and the mermaid parade"
+				],
+				[
+					"Four quartets and no regrets",
+					"Except for the polaroids i left"
+				],
+				[
+					"You were just some spell i was under",
+					"That endless summer"
+				]
 			]
 		},
 		{
 			"title": "Sunset",
 			"spotify_id": "4PMmwowVLOajPdiKnrU1vK",
 			"emoji": "🌅",
-			"lyrics": "Faked our deaths\nLit a match\nClosed the door\nWaited for the flash|Greyhound station\nPaid in cash\nMiss lazarus\nWe're coming back|They say it's darkest before the dawn\nWe've been in this town for far too long\nThey say it's darkest before the dawn\nWe're moving on|Sunset\nNo regrets\nFirst chance\nLast dance\nStuck in the middle|Even bad girls\nKnow good love\nYou taste so sweet\nIt hurts a little|Make our home\nWhere we stand\nOne suitcase\nAnd half a plan|Follow the wolves\nAnd sing along\nPast the voices\nTo the Song|They say it's darkest before the dawn\nWe've been in this town for far too long\nThey say it's darkest before the dawn\nWe're moving on|Sunset\nNo regrets\nFirst chance\nLast dance\nStuck in the middle|Even bad girls\nKnow good love\nYou taste so sweet\nIt hurts a little",
 			"hashtags": [
 				"sunset"
+			],
+			"lyrics": [
+				[
+					"Faked our deaths",
+					"Lit a match",
+					"Closed the door",
+					"Waited for the flash"
+				],
+				[
+					"Greyhound station",
+					"Paid in cash",
+					"Miss lazarus",
+					"We're coming back"
+				],
+				[
+					"They say it's darkest before the dawn",
+					"We've been in this town for far too long",
+					"They say it's darkest before the dawn",
+					"We're moving on"
+				],
+				[
+					"Sunset",
+					"No regrets",
+					"First chance",
+					"Last dance",
+					"Stuck in the middle"
+				],
+				[
+					"Even bad girls",
+					"Know good love",
+					"You taste so sweet",
+					"It hurts a little"
+				],
+				[
+					"Make our home",
+					"Where we stand",
+					"One suitcase",
+					"And half a plan"
+				],
+				[
+					"Follow the wolves",
+					"And sing along",
+					"Past the voices",
+					"To the Song"
+				],
+				[
+					"They say it's darkest before the dawn",
+					"We've been in this town for far too long",
+					"They say it's darkest before the dawn",
+					"We're moving on"
+				],
+				[
+					"Sunset",
+					"No regrets",
+					"First chance",
+					"Last dance",
+					"Stuck in the middle"
+				],
+				[
+					"Even bad girls",
+					"Know good love",
+					"You taste so sweet",
+					"It hurts a little"
+				]
 			]
 		},
 		{
 			"title": "Jason",
 			"spotify_id": "3nNNYRBtkNsKjertmtTRMO",
-			"lyrics": "He comes alive in metropolis lights when the musics way too loud\nDeep in the night it's easy to hide and he's got it all figured out|White satellites getting lost in his eyes but to him she's just another girl\nRoll with the tide like the wind and the sky and he'll only let you down|Oooh Jason\nTell me what you're chasin'\nBecause the night will never give you what you want|Oooh Jason\nAnd if you can't escape it\nI hope you find whatever you've been looking for|Where do you go in a town full of ghosts and everybody knows your name|And all the homecoming queens in the small town scenes they'll offer you a place to stay|Some want forever instead of whenever when they're naked in the light|It's a strange little potion but sometimes the motion almost makes you feel alive|Oooh Jason\nTell me what you're chasin'\nBecause the night will never give you what you want|Oooh Jason\nAnd if you can't escape it\nI hope you find whatever you've been looking for|And I'm gonna keep on running",
 			"hashtags": [
 				"jason",
 				"nikkiflores"
+			],
+			"lyrics": [
+				[
+					"He comes alive in metropolis lights when the musics way too loud",
+					"Deep in the night it's easy to hide and he's got it all figured out"
+				],
+				[
+					"White satellites getting lost in his eyes but to him she's just another girl",
+					"Roll with the tide like the wind and the sky and he'll only let you down"
+				],
+				[
+					"Oooh Jason",
+					"Tell me what you're chasin'",
+					"Because the night will never give you what you want"
+				],
+				[
+					"Oooh Jason",
+					"And if you can't escape it",
+					"I hope you find whatever you've been looking for"
+				],
+				[
+					"Where do you go in a town full of ghosts and everybody knows your name"
+				],
+				[
+					"And all the homecoming queens in the small town scenes they'll offer you a place to stay"
+				],
+				[
+					"Some want forever instead of whenever when they're naked in the light"
+				],
+				[
+					"It's a strange little potion but sometimes the motion almost makes you feel alive"
+				],
+				[
+					"Oooh Jason",
+					"Tell me what you're chasin'",
+					"Because the night will never give you what you want"
+				],
+				[
+					"Oooh Jason",
+					"And if you can't escape it",
+					"I hope you find whatever you've been looking for"
+				],
+				[
+					"And I'm gonna keep on running"
+				]
 			]
 		},
 		{
 			"title": "Synthetic",
 			"spotify_id": "5y72MBQ0z2YszChIGxx4gc",
-			"lyrics": "Been trying to move on\nBeen black and blue\nTrying to turn the old\nInto something new|You found somebody\nI found someone too\nShe got everything I need\nYeah but she's not you|I locked my love into the ground\nHoped it never could be found\nBody slowly shutting down\nAnd now I am…|I'm still alive but I can't feel\nI got stuff inside but it's not real|They say I'm fine but I feel synthetic\nNothing human left in me|I'm just a machine full of moving parts\nI got emptiness where I used to have a heart|I'm still breathing but I'm synthetic\nNothing human left in me\nNothing human about me|No emotion\nJust autotune\nLeft who I was back there with you|Maybe I died\nAnd I kept movin'\nIn a body made of plastic and glue|I locked my love into the ground\nHoped it never could be found\nBody slowly shutting down\nAnd now I am…|I'm still alive but I can't feel\nI got stuff inside but it's not real\nThey say I'm fine but I feel synthetic\nNothing human left in me|I'm just a machine full of moving parts\nI got emptiness where I used to have a heart|I'm still breathing but I'm synthetic\nNothing human left in me\nNothing human about me",
 			"hashtags": [
 				"synthetic"
+			],
+			"lyrics": [
+				[
+					"Been trying to move on",
+					"Been black and blue",
+					"Trying to turn the old",
+					"Into something new"
+				],
+				[
+					"You found somebody",
+					"I found someone too",
+					"She got everything I need",
+					"Yeah but she's not you"
+				],
+				[
+					"I locked my love into the ground",
+					"Hoped it never could be found",
+					"Body slowly shutting down",
+					"And now I am…"
+				],
+				[
+					"I'm still alive but I can't feel",
+					"I got stuff inside but it's not real"
+				],
+				[
+					"They say I'm fine but I feel synthetic",
+					"Nothing human left in me"
+				],
+				[
+					"I'm just a machine full of moving parts",
+					"I got emptiness where I used to have a heart"
+				],
+				[
+					"I'm still breathing but I'm synthetic",
+					"Nothing human left in me",
+					"Nothing human about me"
+				],
+				[
+					"No emotion",
+					"Just autotune",
+					"Left who I was back there with you"
+				],
+				[
+					"Maybe I died",
+					"And I kept movin'",
+					"In a body made of plastic and glue"
+				],
+				[
+					"I locked my love into the ground",
+					"Hoped it never could be found",
+					"Body slowly shutting down",
+					"And now I am…"
+				],
+				[
+					"I'm still alive but I can't feel",
+					"I got stuff inside but it's not real",
+					"They say I'm fine but I feel synthetic",
+					"Nothing human left in me"
+				],
+				[
+					"I'm just a machine full of moving parts",
+					"I got emptiness where I used to have a heart"
+				],
+				[
+					"I'm still breathing but I'm synthetic",
+					"Nothing human left in me",
+					"Nothing human about me"
+				]
 			]
 		},
 		{
 			"title": "The Comeback Kid",
 			"spotify_id": "6vvyavHx8WHdsw6vsuMwyR",
-			"lyrics": "I been so low\nFelt the wind blow\nLike i was a screen door\nIn a thunderstorm|Yeah i've been down\nI've been laid out\nBut you always were\nWhat I came here for|Waiting all day\nJust for my say\nFor a bell to ring\nFor the first sting|Yeah I been blue\nThat ain’t nothing new\nIt’s you my friend\nYou’re why I get up again|I’ve made mistakes\nI’ve been hard hit\nI say so what\nSo what if I did\nI’m the clear eyed\nI’m the comeback kid|Start it over\nStart it over again\nI'm the clear eyed\nI'm the comeback kid|It’s been a rough year\nBeen some tough tears\nI’ve lost so fast\nAll that I had|But when it’s time to\nI will fight for you\nCause you know you are are\nWhy i’ve come so far|I’ve made mistakes\nI’ve been hard hit\nI say so what\nSo what if I did\nI’m the clear eyed\nI’m the comeback kid|Start it over\nStart it over again\nI'm the clear eyed\nI'm the comeback kid",
 			"hashtags": [
 				"thecomebackkid"
+			],
+			"lyrics": [
+				[
+					"I been so low",
+					"Felt the wind blow",
+					"Like i was a screen door",
+					"In a thunderstorm"
+				],
+				[
+					"Yeah i've been down",
+					"I've been laid out",
+					"But you always were",
+					"What I came here for"
+				],
+				[
+					"Waiting all day",
+					"Just for my say",
+					"For a bell to ring",
+					"For the first sting"
+				],
+				[
+					"Yeah I been blue",
+					"That ain’t nothing new",
+					"It’s you my friend",
+					"You’re why I get up again"
+				],
+				[
+					"I’ve made mistakes",
+					"I’ve been hard hit",
+					"I say so what",
+					"So what if I did",
+					"I’m the clear eyed",
+					"I’m the comeback kid"
+				],
+				[
+					"Start it over",
+					"Start it over again",
+					"I'm the clear eyed",
+					"I'm the comeback kid"
+				],
+				[
+					"It’s been a rough year",
+					"Been some tough tears",
+					"I’ve lost so fast",
+					"All that I had"
+				],
+				[
+					"But when it’s time to",
+					"I will fight for you",
+					"Cause you know you are are",
+					"Why i’ve come so far"
+				],
+				[
+					"I’ve made mistakes",
+					"I’ve been hard hit",
+					"I say so what",
+					"So what if I did",
+					"I’m the clear eyed",
+					"I’m the comeback kid"
+				],
+				[
+					"Start it over",
+					"Start it over again",
+					"I'm the clear eyed",
+					"I'm the comeback kid"
+				]
 			]
 		},
 		{
 			"title": "Vampires",
 			"spotify_id": "1K0urJwRWgKsdufGEdkXP7",
 			"emoji": "🧛🏻‍♀️🧛🏻",
-			"lyrics": "Strangers in a dark room, laughing at jokes they didn't quite hear\nFrosted window panes and cheap champagne a face appears|And anything could happen in these cathedrals we roam\nWhere shadow people dance and trade their glance and walk home alone|She's staring out the window of the Roosevelt Hotel\nWatching midtown empty out and I kiss her farewell|They say we come from nothing and to nothing we'll return\nAnd in between is gravity and bridges left to burn",
 			"hashtags": [
 				"vampires"
+			],
+			"lyrics": [
+				[
+					"Strangers in a dark room, laughing at jokes they didn't quite hear",
+					"Frosted window panes and cheap champagne a face appears"
+				],
+				[
+					"And anything could happen in these cathedrals we roam",
+					"Where shadow people dance and trade their glance and walk home alone"
+				],
+				[
+					"She's staring out the window of the Roosevelt Hotel",
+					"Watching midtown empty out and I kiss her farewell"
+				],
+				[
+					"They say we come from nothing and to nothing we'll return",
+					"And in between is gravity and bridges left to burn"
+				]
 			]
 		},
 		{
 			"title": "Nighthawks",
 			"spotify_id": "45B3i2YN4kvLAcVhc0BOIR",
-			"lyrics": "I see you\nYou see me\nEighteenth floor\nAcross the street|Sometimes you dance\nSometimes you read\nTv dinners fall asleep|Do i ever cross your mind\nThrough your window in the sky|When you forget to close the blinds\nSo do i|I see you\nCheck your phone\nWash the dishes\nFold the clothes|Sometimes you stay up\nAnd get stoned\nBut you always sleep alone|Do i ever cross your mind\nThrough your window in the sky|When you forget to close the blinds\nSo do i",
 			"hashtags": [
 				"nighthawks"
+			],
+			"lyrics": [
+				[
+					"I see you",
+					"You see me",
+					"Eighteenth floor",
+					"Across the street"
+				],
+				[
+					"Sometimes you dance",
+					"Sometimes you read",
+					"Tv dinners fall asleep"
+				],
+				[
+					"Do i ever cross your mind",
+					"Through your window in the sky"
+				],
+				[
+					"When you forget to close the blinds",
+					"So do i"
+				],
+				[
+					"I see you",
+					"Check your phone",
+					"Wash the dishes",
+					"Fold the clothes"
+				],
+				[
+					"Sometimes you stay up",
+					"And get stoned",
+					"But you always sleep alone"
+				],
+				[
+					"Do i ever cross your mind",
+					"Through your window in the sky"
+				],
+				[
+					"When you forget to close the blinds",
+					"So do i"
+				]
 			]
 		},
 		{
 			"title": "Memories",
 			"spotify_id": "4c37fNeMZH98oIqGYVGF0o",
-			"lyrics": "Everything is clear in the rear view mirror\nThe coast highway and the golden hour\nOnly love\nNothing was lost|Everything fits when you tell your story\nThe blurry portraits in the halls of former lovers\nGone\nBut nothing was lost|You'll always be a part of me\nYou gave me a song to sing|Dancing in your room\nInnocent and true|Elvis tattoo on your shoulder\nWe'll know better when we're older|You'll always be a part of me\nSome wounds will always sting|Forever in full bloom\nBarely twenty two|Summer days are growing colder\nWe'll know better when we're older|All of this was planned when the world was started\nThe red blood hearts\nThe final word was never said\nI'm tossing in my bed|But everything is clear in the rear view mirror\nWhen nothing is left\nThe lights of evening round us shine pink and silver skies|You'll always be a part of me\nYou gave me a song to sing|Dancing in your room\nInnocent and true|Elvis tattoo on your shoulder\nWe'll know better when we're older|You'll always be a part of me\nSome wounds will always sting|Forever in full bloom\nBarely twenty two|Summer days are growing colder\nWe'll know better when we're older",
 			"hashtags": [
 				"memories"
+			],
+			"lyrics": [
+				[
+					"Everything is clear in the rear view mirror",
+					"The coast highway and the golden hour",
+					"Only love",
+					"Nothing was lost"
+				],
+				[
+					"Everything fits when you tell your story",
+					"The blurry portraits in the halls of former lovers",
+					"Gone",
+					"But nothing was lost"
+				],
+				[
+					"You'll always be a part of me",
+					"You gave me a song to sing"
+				],
+				[
+					"Dancing in your room",
+					"Innocent and true"
+				],
+				[
+					"Elvis tattoo on your shoulder",
+					"We'll know better when we're older"
+				],
+				[
+					"You'll always be a part of me",
+					"Some wounds will always sting"
+				],
+				[
+					"Forever in full bloom",
+					"Barely twenty two"
+				],
+				[
+					"Summer days are growing colder",
+					"We'll know better when we're older"
+				],
+				[
+					"All of this was planned when the world was started",
+					"The red blood hearts",
+					"The final word was never said",
+					"I'm tossing in my bed"
+				],
+				[
+					"But everything is clear in the rear view mirror",
+					"When nothing is left",
+					"The lights of evening round us shine pink and silver skies"
+				],
+				[
+					"You'll always be a part of me",
+					"You gave me a song to sing"
+				],
+				[
+					"Dancing in your room",
+					"Innocent and true"
+				],
+				[
+					"Elvis tattoo on your shoulder",
+					"We'll know better when we're older"
+				],
+				[
+					"You'll always be a part of me",
+					"Some wounds will always sting"
+				],
+				[
+					"Forever in full bloom",
+					"Barely twenty two"
+				],
+				[
+					"Summer days are growing colder",
+					"We'll know better when we're older"
+				]
 			]
 		},
 		{
 			"title": "Comet",
 			"spotify_id": "4HHOLKcCb52sm5FCJWGU6u",
 			"emoji": "☄️",
-			"lyrics": "If the sun's not up\nI'll bring it to you\nAnd if my mind says stop\nMy heart will know what to do|And if the stars are faded\nI'll blow the sun to pieces\nMake it rain\nThen the loneliness is gone|We could roll back time\nBefore we were broken inside\nAnd leave it all behind\nAnd forget the world for a while|Or maybe we'd be strangers\nAnd we'd never needed fixing\nWe'll be okay,\nCause we never met at all|I could be a comet\nFloating through space\nCause being lost in you\nIs the best place|Let's go back to where we started\nI'll be right here\nJust follow the light,\nLet me burn through your atmosphere|I'll burn for you|When the day turns night, \nYou know where to go.\nYou see the light in the sky,\nYou know you're not alone|Maybe we could make it\nOut here where the air is clearer,\nIn the blue\nFar away from gravity|I could be a comet\nFloating through space\nCause being lost in you\nIs the best place|Let's go back to where we started\nI'll be right here\nJust follow the light,\nLet me burn through your atmosphere|I'll burn for you|I'll be like a comet\nFloating in your space\nBeing lost in you\nI'll be lost for days|Let's go back to where we started\nI'll be right here\nJust follow the light,\nLet me burn through your atmosphere|I'll burn for you|And I keep burning through\nCause I burn for you",
 			"hashtags": [
 				"comet"
+			],
+			"lyrics": [
+				[
+					"If the sun's not up",
+					"I'll bring it to you",
+					"And if my mind says stop",
+					"My heart will know what to do"
+				],
+				[
+					"And if the stars are faded",
+					"I'll blow the sun to pieces",
+					"Make it rain",
+					"Then the loneliness is gone"
+				],
+				[
+					"We could roll back time",
+					"Before we were broken inside",
+					"And leave it all behind",
+					"And forget the world for a while"
+				],
+				[
+					"Or maybe we'd be strangers",
+					"And we'd never needed fixing",
+					"We'll be okay,",
+					"Cause we never met at all"
+				],
+				[
+					"I could be a comet",
+					"Floating through space",
+					"Cause being lost in you",
+					"Is the best place"
+				],
+				[
+					"Let's go back to where we started",
+					"I'll be right here",
+					"Just follow the light,",
+					"Let me burn through your atmosphere"
+				],
+				[
+					"I'll burn for you"
+				],
+				[
+					"When the day turns night, ",
+					"You know where to go.",
+					"You see the light in the sky,",
+					"You know you're not alone"
+				],
+				[
+					"Maybe we could make it",
+					"Out here where the air is clearer,",
+					"In the blue",
+					"Far away from gravity"
+				],
+				[
+					"I could be a comet",
+					"Floating through space",
+					"Cause being lost in you",
+					"Is the best place"
+				],
+				[
+					"Let's go back to where we started",
+					"I'll be right here",
+					"Just follow the light,",
+					"Let me burn through your atmosphere"
+				],
+				[
+					"I'll burn for you"
+				],
+				[
+					"I'll be like a comet",
+					"Floating in your space",
+					"Being lost in you",
+					"I'll be lost for days"
+				],
+				[
+					"Let's go back to where we started",
+					"I'll be right here",
+					"Just follow the light,",
+					"Let me burn through your atmosphere"
+				],
+				[
+					"I'll burn for you"
+				],
+				[
+					"And I keep burning through",
+					"Cause I burn for you"
+				]
 			]
 		},
 		{
 			"title": "Bend",
 			"spotify_id": "4uBiaXLct2GHM2Z90zu4yc",
-			"lyrics": "I break like glass\nYou break like waves on the ocean, on the ocean|I tend to crash\nAnd you have to deal with the explosion, though I know that|Everything will always be exactly how it's gonna be\nThough I seem to worry every single day|This prodigal turns home again then morning comes and in the end\nI see that new sun shining on your face|We begin to bend\nWe begin to mend\nWe begin to bend\nWe begin to mend|I sink like stone\nYou seem to flow above the madness like wings on canvas|And all that I know\nIs that I hear the notes through the darkness like a promise|Everything will always be exactly how it’s gonna be\nThough I seem to worry every single day|This prodigal turns home again then morning comes and in the end\nI see that new sun shining on your face|We begin to bend\nWe begin to mend\nWe begin to bend\nWe begin to mend|We begin to bend\nWe begin to mend\nWe begin to bend\nWe begin to mend",
 			"hashtags": [
 				"bend"
+			],
+			"lyrics": [
+				[
+					"I break like glass",
+					"You break like waves on the ocean, on the ocean"
+				],
+				[
+					"I tend to crash",
+					"And you have to deal with the explosion, though I know that"
+				],
+				[
+					"Everything will always be exactly how it's gonna be",
+					"Though I seem to worry every single day"
+				],
+				[
+					"This prodigal turns home again then morning comes and in the end",
+					"I see that new sun shining on your face"
+				],
+				[
+					"We begin to bend",
+					"We begin to mend",
+					"We begin to bend",
+					"We begin to mend"
+				],
+				[
+					"I sink like stone",
+					"You seem to flow above the madness like wings on canvas"
+				],
+				[
+					"And all that I know",
+					"Is that I hear the notes through the darkness like a promise"
+				],
+				[
+					"Everything will always be exactly how it’s gonna be",
+					"Though I seem to worry every single day"
+				],
+				[
+					"This prodigal turns home again then morning comes and in the end",
+					"I see that new sun shining on your face"
+				],
+				[
+					"We begin to bend",
+					"We begin to mend",
+					"We begin to bend",
+					"We begin to mend"
+				],
+				[
+					"We begin to bend",
+					"We begin to mend",
+					"We begin to bend",
+					"We begin to mend"
+				]
 			]
 		}
 	]

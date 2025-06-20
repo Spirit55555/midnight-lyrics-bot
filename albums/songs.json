@@ -3,73 +3,416 @@
 	"songs": [
 		{
 			"title": "C O L D P I Z Z A",
-			"lyrics": "Cold pizza",
-			"emoji": "🍕",
 			"link": "https://www.youtube.com/watch?v=8i5MYaVSSHE",
+			"emoji": "🍕",
 			"hashtags": [
 				"coldpizza"
+			],
+			"lyrics": [
+				[
+					"Cold pizza"
+				]
 			]
 		},
 		{
 			"title": "Sax Solo",
-			"lyrics": "Sax solo",
-			"emoji": "🎷🎷🎷",
 			"link": "https://www.youtube.com/watch?v=M27R17pRXDQ",
+			"emoji": "🎷🎷🎷",
 			"hashtags": [
 				"saxsolo",
 				"saxophone"
+			],
+			"lyrics": [
+				[
+					"Sax solo"
+				]
 			]
 		},
 		{
 			"title": "Sometimes She Smiles",
 			"spotify_id": "36q8Nykkb2aq3M643lwq5a",
-			"lyrics": "He spoke of the truth and how it might save her\nAnd she spoke of the trees in Vermont in the winter|He said we must strive for faith through devotion\nWhile she dreams of the smell of the Indian Ocean|He spoke in philosophical structure\nShe spoke of a vineyard, she spoke of her lover|When he does not understand\nYou can hear bones breaking in his head\nWhen she does not understand|Sometimes she smiles\nWhen he does not understand\nYou can hear bones breaking in his head\nWhen she does not understand|Sometimes she smiles\nHe said reason is what separates man from the beasts\nAnd she kissed him and put him at ease",
 			"hashtags": [
 				"sometimesshesmiles",
 				"vehlinggo"
+			],
+			"lyrics": [
+				[
+					"He spoke of the truth and how it might save her",
+					"And she spoke of the trees in Vermont in the winter"
+				],
+				[
+					"He said we must strive for faith through devotion",
+					"While she dreams of the smell of the Indian Ocean"
+				],
+				[
+					"He spoke in philosophical structure",
+					"She spoke of a vineyard, she spoke of her lover"
+				],
+				[
+					"When he does not understand",
+					"You can hear bones breaking in his head",
+					"When she does not understand"
+				],
+				[
+					"Sometimes she smiles",
+					"When he does not understand",
+					"You can hear bones breaking in his head",
+					"When she does not understand"
+				],
+				[
+					"Sometimes she smiles",
+					"He said reason is what separates man from the beasts",
+					"And she kissed him and put him at ease"
+				]
 			]
 		},
 		{
 			"title": "Land Locked Heart",
 			"spotify_id": "37vPji99LSgupi5Bmj9pYn",
-			"lyrics": "Maybe I left you a long time ago\nAnd neither of us knew it|Would You say I’d lost the plot\nWould You say I blew it|I thought I found a way back home\nBut now that I’m looking through it|After all this time we've lost\nI think I just outgrew it|Are we supposed to waste away?|Empty out my bedroom\nThrow all that shit/stuff away\nAll I'm taking with me now is blank slate|These days are to short\nTo live a whole life through\nIn this land locked\nThis land locked heart with you|Maybe I left you a long time ago\nand maybe we both knew|that Wild seeds turn to tall trees\nIf the youth don’t plow right through it|So yeah I caught that early breeze\nYeah flew beyond your edges\nAnd when I came back for the holidays\nI tried to setting fire to the hedges|Were we supposed to waste away?|Empty out my bedroom\nThe one you kissed me in\nThe ghost of who I was and who I am cannot begin|When these days are too short\nTo live a whole life through\nIn this land locked\nThis land locked heart with you",
 			"hashtags": [
 				"landlockedheart",
 				"road96",
 				"road96mile0"
+			],
+			"lyrics": [
+				[
+					"Maybe I left you a long time ago",
+					"And neither of us knew it"
+				],
+				[
+					"Would You say I’d lost the plot",
+					"Would You say I blew it"
+				],
+				[
+					"I thought I found a way back home",
+					"But now that I’m looking through it"
+				],
+				[
+					"After all this time we've lost",
+					"I think I just outgrew it"
+				],
+				[
+					"Are we supposed to waste away?"
+				],
+				[
+					"Empty out my bedroom",
+					"Throw all that shit/stuff away",
+					"All I'm taking with me now is blank slate"
+				],
+				[
+					"These days are to short",
+					"To live a whole life through",
+					"In this land locked",
+					"This land locked heart with you"
+				],
+				[
+					"Maybe I left you a long time ago",
+					"and maybe we both knew"
+				],
+				[
+					"that Wild seeds turn to tall trees",
+					"If the youth don’t plow right through it"
+				],
+				[
+					"So yeah I caught that early breeze",
+					"Yeah flew beyond your edges",
+					"And when I came back for the holidays",
+					"I tried to setting fire to the hedges"
+				],
+				[
+					"Were we supposed to waste away?"
+				],
+				[
+					"Empty out my bedroom",
+					"The one you kissed me in",
+					"The ghost of who I was and who I am cannot begin"
+				],
+				[
+					"When these days are too short",
+					"To live a whole life through",
+					"In this land locked",
+					"This land locked heart with you"
+				]
 			]
 		},
 		{
 			"title": "Static",
 			"spotify_id": "0TiZDNPU2t4STNJW4Qdj22",
-			"lyrics": "At the shoreline in a snowstorm\nI was baptized\nLike a new born\nIn the static|There was a voice inside a dream\nSaid Lift your head up\nCome up clean\nInto the static|You were a wild thing\nPretending to be tame|I was a wild thing\nTrapped inside a cage|I wasn’t looking for deliverance\nWhen you walked in from the wilderness|I was yours and you were mine\nBut Everything returns on time\nTo the static|Though the circuit board erased\nFlashes of memory still remain\nIn the static|In between the ones and zeros\nYou will find me if you let go\nIn the static",
 			"hashtags": [
 				"static",
 				"timecop1983"
+			],
+			"lyrics": [
+				[
+					"At the shoreline in a snowstorm",
+					"I was baptized",
+					"Like a new born",
+					"In the static"
+				],
+				[
+					"There was a voice inside a dream",
+					"Said Lift your head up",
+					"Come up clean",
+					"Into the static"
+				],
+				[
+					"You were a wild thing",
+					"Pretending to be tame"
+				],
+				[
+					"I was a wild thing",
+					"Trapped inside a cage"
+				],
+				[
+					"I wasn’t looking for deliverance",
+					"When you walked in from the wilderness"
+				],
+				[
+					"I was yours and you were mine",
+					"But Everything returns on time",
+					"To the static"
+				],
+				[
+					"Though the circuit board erased",
+					"Flashes of memory still remain",
+					"In the static"
+				],
+				[
+					"In between the ones and zeros",
+					"You will find me if you let go",
+					"In the static"
+				]
 			]
 		},
 		{
 			"title": "Chariot",
 			"spotify_id": "7LRx0xmYQqpWPaBsTUWzC2",
-			"lyrics": "I can see it (he broke your heart)\nI can see it (he broke your heart)\nI can see it on your pretty face|I can see it (he broke your heart)\nI can see it (he broke your heart)\nI can see it on your pretty face\nThat heartbreak|Is it about control\nTell me I wanna know\nHave you been burned before\nOn some other chariot|I make the crosstown run\nFaster than anyone\nLet the reigns take themselves\nAnd fly like a loaded gun|Faster Faster Free\nComing close to me|I can see it (he broke your heart)\nI can see it (he broke your heart)\nI can see it on your pretty face|I can see it (he broke your heart)\nI can see it (he broke your heart)\nI can see it on your pretty face\nThat heartbreak|(He broke your) You only like the bad boys\n(He broke your heart) I can see it on your pretty face\n(He broke your heart) I could be that new toy\n(He broke your heart) I could be that heartbreak\nHe broke your heart again|Washed up in the city of sin singing\nWashed up in the city of sin singing\nWashed up in the city of sin singing|Is it about control\nOr are you just a restless soul\nBurned by some former king\nSome other small town scene|That's not my kind of love\nI race for fame and fun\nThe secret is when to know\nWhen to let it go|Faster Faster Free\nComing close to me|I can see it (he broke your heart)\nI can see it (he broke your heart)\nI can see it on your pretty face|I can see it (he broke your heart)\nI can see it (he broke your heart)\nI can see it on your pretty face\nThat heartbreak|(He broke your) You only like the bad boys\n(He broke your heart) I can see it on your pretty face\n(He broke your heart) I could be that new toy\n(He broke your heart) I could be that heartbreak\nHe broke your heart again|Washed up in the city of sin singing\nWashed up in the city of sin singing\nWashed up in the city of sin singing|Washed up in the city of sin singing\nWashed up in the city of sin singing",
 			"hashtags": [
 				"chariot"
+			],
+			"lyrics": [
+				[
+					"I can see it (he broke your heart)",
+					"I can see it (he broke your heart)",
+					"I can see it on your pretty face"
+				],
+				[
+					"I can see it (he broke your heart)",
+					"I can see it (he broke your heart)",
+					"I can see it on your pretty face",
+					"That heartbreak"
+				],
+				[
+					"Is it about control",
+					"Tell me I wanna know",
+					"Have you been burned before",
+					"On some other chariot"
+				],
+				[
+					"I make the crosstown run",
+					"Faster than anyone",
+					"Let the reigns take themselves",
+					"And fly like a loaded gun"
+				],
+				[
+					"Faster Faster Free",
+					"Coming close to me"
+				],
+				[
+					"I can see it (he broke your heart)",
+					"I can see it (he broke your heart)",
+					"I can see it on your pretty face"
+				],
+				[
+					"I can see it (he broke your heart)",
+					"I can see it (he broke your heart)",
+					"I can see it on your pretty face",
+					"That heartbreak"
+				],
+				[
+					"(He broke your) You only like the bad boys",
+					"(He broke your heart) I can see it on your pretty face",
+					"(He broke your heart) I could be that new toy",
+					"(He broke your heart) I could be that heartbreak",
+					"He broke your heart again"
+				],
+				[
+					"Washed up in the city of sin singing",
+					"Washed up in the city of sin singing",
+					"Washed up in the city of sin singing"
+				],
+				[
+					"Is it about control",
+					"Or are you just a restless soul",
+					"Burned by some former king",
+					"Some other small town scene"
+				],
+				[
+					"That's not my kind of love",
+					"I race for fame and fun",
+					"The secret is when to know",
+					"When to let it go"
+				],
+				[
+					"Faster Faster Free",
+					"Coming close to me"
+				],
+				[
+					"I can see it (he broke your heart)",
+					"I can see it (he broke your heart)",
+					"I can see it on your pretty face"
+				],
+				[
+					"I can see it (he broke your heart)",
+					"I can see it (he broke your heart)",
+					"I can see it on your pretty face",
+					"That heartbreak"
+				],
+				[
+					"(He broke your) You only like the bad boys",
+					"(He broke your heart) I can see it on your pretty face",
+					"(He broke your heart) I could be that new toy",
+					"(He broke your heart) I could be that heartbreak",
+					"He broke your heart again"
+				],
+				[
+					"Washed up in the city of sin singing",
+					"Washed up in the city of sin singing",
+					"Washed up in the city of sin singing"
+				],
+				[
+					"Washed up in the city of sin singing",
+					"Washed up in the city of sin singing"
+				]
 			]
 		},
 		{
 			"title": "Digital Dreams",
 			"spotify_id": "0cEZKdHAH1eZqdqpflrA4Y",
-			"lyrics": "I was born in a room with flourescent lights\nRaised to be kind and afraid of heights\nBut they always seemed to find me|At night, out on the ledge\nCatching glimpses of the strange fruit\nThat grows beyond the edge|Where do you go in the darkness\nWhen you're alone in your bed\nHow do you dream\nWhen you're just a machine\nImagining colors you can't see|I worked the same job everybody had\nAnd they said I was special\nIf a bit too sad|But they always seemed to find me\nAt night, out on the ledge\nCatching glimpses of the strange fruit\nThat grows beyond the edge|Where do you go in the darkness\nWhen you're alone in your bed\nHow do you dream\nWhen you're just a machine\nImagining colors you can't see|Where do you go in the darkness\nWhen you're alone in your bed\nHow do you dream\nWhen you're just a machine\nImagining colors you can't see|If we're all connected\nWhy can't we seem to get along\nWhy does every road I take to leave just bring me home|And why does the journey feel so lonely\nIt's been so long\nWill these questions matter when we're gone|Where do you go in the darkness\nWhen you're alone in your bed\nHow do you dream\nWhen you're just a machine\nImagining colors you can't see|Where do you go in the darkness\nWhen you're alone in your bed\nHow do you dream\nWhen you're just a machine\nImagining colors you can't see|Where do you go in the darkness\nWhen you're alone in your bed\nHow do you dream\nWhen you're just a machine\nImagining colors you can't see",
 			"hashtags": [
 				"digitaldreams"
+			],
+			"lyrics": [
+				[
+					"I was born in a room with flourescent lights",
+					"Raised to be kind and afraid of heights",
+					"But they always seemed to find me"
+				],
+				[
+					"At night, out on the ledge",
+					"Catching glimpses of the strange fruit",
+					"That grows beyond the edge"
+				],
+				[
+					"Where do you go in the darkness",
+					"When you're alone in your bed",
+					"How do you dream",
+					"When you're just a machine",
+					"Imagining colors you can't see"
+				],
+				[
+					"I worked the same job everybody had",
+					"And they said I was special",
+					"If a bit too sad"
+				],
+				[
+					"But they always seemed to find me",
+					"At night, out on the ledge",
+					"Catching glimpses of the strange fruit",
+					"That grows beyond the edge"
+				],
+				[
+					"Where do you go in the darkness",
+					"When you're alone in your bed",
+					"How do you dream",
+					"When you're just a machine",
+					"Imagining colors you can't see"
+				],
+				[
+					"Where do you go in the darkness",
+					"When you're alone in your bed",
+					"How do you dream",
+					"When you're just a machine",
+					"Imagining colors you can't see"
+				],
+				[
+					"If we're all connected",
+					"Why can't we seem to get along",
+					"Why does every road I take to leave just bring me home"
+				],
+				[
+					"And why does the journey feel so lonely",
+					"It's been so long",
+					"Will these questions matter when we're gone"
+				],
+				[
+					"Where do you go in the darkness",
+					"When you're alone in your bed",
+					"How do you dream",
+					"When you're just a machine",
+					"Imagining colors you can't see"
+				],
+				[
+					"Where do you go in the darkness",
+					"When you're alone in your bed",
+					"How do you dream",
+					"When you're just a machine",
+					"Imagining colors you can't see"
+				],
+				[
+					"Where do you go in the darkness",
+					"When you're alone in your bed",
+					"How do you dream",
+					"When you're just a machine",
+					"Imagining colors you can't see"
+				]
 			]
 		},
 		{
 			"title": "Love is an Ocean",
 			"spotify_id": "2WaBqUXrYqPyi2sqEIjWf4",
-			"lyrics": "I move slowly in the haze of people posing like the sun\nUnder glowing eyes of neon skies spinning in slow motion|Diving deep in the heart\nFloating in the blue\nAnd the ocean has arms\nLet it carry me to you|Cause love is an ocean\nLove is an ocean\nLove is an ocean\nLove is an ocean|And our life back at the surface has us struggle through our days\nBut when sun bursts on the water I feel longing to escape|Diving deep in the heart\nFloating in the blue\nAnd the ocean has arms\nLet it carry me to you|Cause love is an ocean\nLove is an ocean\nLove is an ocean\nLove is an ocean|Cause love is an oceanLove is an ocean\nLove is an ocean\nLove is an ocean\nLove is an ocean",
 			"hashtags": [
 				"loveisanocean"
+			],
+			"lyrics": [
+				[
+					"I move slowly in the haze of people posing like the sun",
+					"Under glowing eyes of neon skies spinning in slow motion"
+				],
+				[
+					"Diving deep in the heart",
+					"Floating in the blue",
+					"And the ocean has arms",
+					"Let it carry me to you"
+				],
+				[
+					"Cause love is an ocean",
+					"Love is an ocean",
+					"Love is an ocean",
+					"Love is an ocean"
+				],
+				[
+					"And our life back at the surface has us struggle through our days",
+					"But when sun bursts on the water I feel longing to escape"
+				],
+				[
+					"Diving deep in the heart",
+					"Floating in the blue",
+					"And the ocean has arms",
+					"Let it carry me to you"
+				],
+				[
+					"Cause love is an ocean",
+					"Love is an ocean",
+					"Love is an ocean",
+					"Love is an ocean"
+				],
+				[
+					"Cause love is an oceanLove is an ocean",
+					"Love is an ocean",
+					"Love is an ocean",
+					"Love is an ocean"
+				]
 			]
 		}
 	]
