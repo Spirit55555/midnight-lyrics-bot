@@ -4,7 +4,6 @@ import (
 	"encoding/json"
 	"flag"
 	"fmt"
-	_ "image/png"
 	"log"
 	"math/rand"
 	"os"
