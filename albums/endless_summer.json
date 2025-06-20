@@ -95,25 +95,6 @@
 					"And sing along",
 					"Past the voices",
 					"To the Song"
-				],
-				[
-					"They say it's darkest before the dawn",
-					"We've been in this town for far too long",
-					"They say it's darkest before the dawn",
-					"We're moving on"
-				],
-				[
-					"Sunset",
-					"No regrets",
-					"First chance",
-					"Last dance",
-					"Stuck in the middle"
-				],
-				[
-					"Even bad girls",
-					"Know good love",
-					"You taste so sweet",
-					"It hurts a little"
 				]
 			]
 		},
@@ -154,16 +135,6 @@
 				],
 				[
 					"It's a strange little potion but sometimes the motion almost makes you feel alive"
-				],
-				[
-					"Oooh Jason",
-					"Tell me what you're chasin'",
-					"Because the night will never give you what you want"
-				],
-				[
-					"Oooh Jason",
-					"And if you can't escape it",
-					"I hope you find whatever you've been looking for"
 				],
 				[
 					"And I'm gonna keep on running"
@@ -221,12 +192,6 @@
 					"Maybe I died",
 					"And I kept movin'",
 					"In a body made of plastic and glue"
-				],
-				[
-					"I locked my love into the ground",
-					"Hoped it never could be found",
-					"Body slowly shutting down",
-					"And now I am…"
 				],
 				[
 					"I'm still alive but I can't feel",
@@ -301,20 +266,6 @@
 					"I will fight for you",
 					"Cause you know you are are",
 					"Why i’ve come so far"
-				],
-				[
-					"I’ve made mistakes",
-					"I’ve been hard hit",
-					"I say so what",
-					"So what if I did",
-					"I’m the clear eyed",
-					"I’m the comeback kid"
-				],
-				[
-					"Start it over",
-					"Start it over again",
-					"I'm the clear eyed",
-					"I'm the comeback kid"
 				]
 			]
 		},
@@ -348,7 +299,8 @@
 			"title": "Nighthawks",
 			"spotify_id": "45B3i2YN4kvLAcVhc0BOIR",
 			"hashtags": [
-				"nighthawks"
+				"nighthawks",
+				"lonleycity"
 			],
 			"lyrics": [
 				[
@@ -531,21 +483,6 @@
 					"Far away from gravity"
 				],
 				[
-					"I could be a comet",
-					"Floating through space",
-					"Cause being lost in you",
-					"Is the best place"
-				],
-				[
-					"Let's go back to where we started",
-					"I'll be right here",
-					"Just follow the light,",
-					"Let me burn through your atmosphere"
-				],
-				[
-					"I'll burn for you"
-				],
-				[
 					"I'll be like a comet",
 					"Floating in your space",
 					"Being lost in you",
@@ -556,9 +493,6 @@
 					"I'll be right here",
 					"Just follow the light,",
 					"Let me burn through your atmosphere"
-				],
-				[
-					"I'll burn for you"
 				],
 				[
 					"And I keep burning through",
@@ -602,26 +536,6 @@
 				[
 					"And all that I know",
 					"Is that I hear the notes through the darkness like a promise"
-				],
-				[
-					"Everything will always be exactly how it’s gonna be",
-					"Though I seem to worry every single day"
-				],
-				[
-					"This prodigal turns home again then morning comes and in the end",
-					"I see that new sun shining on your face"
-				],
-				[
-					"We begin to bend",
-					"We begin to mend",
-					"We begin to bend",
-					"We begin to mend"
-				],
-				[
-					"We begin to bend",
-					"We begin to mend",
-					"We begin to bend",
-					"We begin to mend"
 				]
 			]
 		}
