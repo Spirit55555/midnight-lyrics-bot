@@ -8,6 +8,8 @@ import (
 	"log"
 	"math/rand"
 	"os"
+	"slices"
+	"strconv"
 	"strings"
 	"time"
 )
@@ -53,18 +55,32 @@ func main() {
 	fakeMidnightFlag := flag.Bool("fake-midnight", false, "Fake that it's midnight (for testing only)")
 	flag.Parse()
 
+	args := flag.Args()
+
 	if *generateAllImagesFlag {
 		generateAllImages()
 		os.Exit(0)
 	}
 
-	randomAlbumName := albums[rand.Intn(len(albums))]
-	album := getAlbum(randomAlbumName)
+	albumName := albums[rand.Intn(len(albums))]
+
+	if (len(args) == 1 || len(args) == 2) && args[0] != "" && slices.Contains(albums, args[0]) {
+		albumName = args[0]
+	}
+
+	album := getAlbum(albumName)
 	song := album.Songs[rand.Intn(len(album.Songs))]
+
+	if len(args) == 2 && args[1] != "" {
+		songId, _ := strconv.Atoi(args[1])
+		if len(album.Songs) > (songId - 1) {
+			song = album.Songs[songId-1]
+		}
+	}
 
 	//Special post at midnight
 	if (time.Now().Hour() == 0 && time.Now().Minute() == 0) || *fakeMidnightFlag {
-		randomAlbumName = "songs"
+		albumName = "songs"
 		song = Song{"Midnight", "", "We are one beating heart", "💓", "", []string{}}
 		album = Album{"Midnight", []Song{song}, []string{}}
 	}
@@ -118,7 +134,7 @@ func main() {
 	}
 
 	if *instagramFlag && os.Getenv("INSTAGRAM_ACCESS_TOKEN") != "" && os.Getenv("INSTAGRAM_IMAGES_URL") != "" {
-		imagePath := generateImage(randomAlbumName, album, song, lyrics)
+		imagePath := generateImage(albumName, album, song, lyrics)
 		postToInstagram(lyrics, reply, imagePath, hashtags)
 	}
 }
