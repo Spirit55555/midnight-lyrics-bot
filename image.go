@@ -5,7 +5,6 @@ import (
 	"encoding/hex"
 	"image"
 	"log"
-	"math/rand"
 	"os"
 	"path/filepath"
 	"strings"
@@ -55,7 +54,7 @@ func generateAllImages() {
 		log.Printf("Album: %s\n", album.Title)
 
 		for _, song := range album.Songs {
-			lyricParts := song.Lyrics[rand.Intn(len(song.Lyrics))]
+			lyricParts := song.Lyrics
 
 			log.Printf("Song: %s\n", song.Title)
 			log.Printf("Total lyrics: %d\n", len(lyricParts))
@@ -63,7 +62,7 @@ func generateAllImages() {
 			for i, lyrics := range lyricParts {
 				log.Printf("(%d/%d)\n", i+1, len(lyricParts))
 
-				generateImage(albumName, album, song, lyrics)
+				generateImage(albumName, album, song, strings.Join(lyrics, "\n"))
 			}
 		}
 	}
