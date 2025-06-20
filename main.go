@@ -40,6 +40,11 @@ var albums = []string{
 	"songs",
 }
 
+var defaultHashtags = []string{
+	"themidnight",
+	"synthwave",
+}
+
 func main() {
 	blueskyFlag := flag.Bool("bluesky", false, "If it should post to Bluesky")
 	threadsFlag := flag.Bool("threads", false, "If it should post to Threads")
@@ -100,6 +105,9 @@ func main() {
 	}
 
 	log.Printf("Lyrics: \n%s\n", lyrics)
+
+	//Add the default hashtags
+	hashtags = append(hashtags, defaultHashtags...)
 
 	if *blueskyFlag && os.Getenv("BOTSKY_HANDLE") != "" && os.Getenv("BOTSKY_APPKEY") != "" {
 		postToBluesky(lyrics, reply, link, hashtags)
