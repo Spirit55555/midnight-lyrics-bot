@@ -1,12 +1,12 @@
 # The Midnight Lyrics bot
-This bot will post lyrics from The Midnight songs on different social media platform.
+This bot will post song lyrics from [The Midnight](https://themidnightofficial.com/) on different social media platform.
 
-The following platforms are supported:
+The following platforms are currently supported:
 - Bluesky
 - Instagram
 - Threads
 
-Special thanks to [Carina](https://github.com/carina092) for the design of the images
+Special thanks to [Carina](https://github.com/carina092) for the design of the images.
 
 Based on [Julia](https://github.com/juliajungle)'s original Node.js version: https://github.com/juliajungle/midnight-lyrics
 
@@ -27,7 +27,10 @@ Environment variables required:
 - `INSTAGRAM_IMAGES_URL`
 
 All images are saved in `generated_images` and a webserver serving these images is required.
+
 The `INSTAGRAM_IMAGES_URL` needs to be a publicly accessible URL on the internet, so Instagram can fetch the images and post them.
+
+If `INSTAGRAM_IMAGES_URL` is set to `https://instagram.example.com` then the image `generated_images/album/song/sha1hash.jpg` should be accessible on `https://instagram.example.com/album/song/sha1hash.jpg`
 
 ## Threads
 
