@@ -7,6 +7,9 @@ The following platforms are supported:
 - Threads
 
 Special thanks to [Carina](https://github.com/carina092) for the design of the images
+
+Based on [Julia](https://github.com/juliajungle)'s original Node.js version: https://github.com/juliajungle/midnight-lyrics
+
 ## Bluesky
 
 Command line flag: `-bluesky`
