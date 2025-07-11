@@ -1,4 +1,4 @@
-module midnight-lyrics-bot
+module github.com/Spirit55555/midnight-lyrics-bot
 
 go 1.24.4
 
