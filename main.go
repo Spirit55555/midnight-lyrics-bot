@@ -38,6 +38,7 @@ var albums = []string{
 	"kids",
 	"monsters",
 	"nocturnal",
+	"syndicate"
 	"songs",
 }
 
