@@ -54,7 +54,7 @@
 					"title",
 					"lyrics"
 				],
-				"anyOf": [
+				"oneOf": [
 					{
 						"required": [
 							"spotify_id"
