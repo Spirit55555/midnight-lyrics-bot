@@ -7,9 +7,23 @@ on:
     branches: [ "main" ]
 
 jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v5
+
+    - name: Install the JSON Schema CLI
+      uses: sourcemeta/jsonschema@v11.5.1
+
+    - name: Validate JSON schema
+      run: jsonschema metaschema schemas/album.schema.json
+
+    - name: Validate JSON files
+      run: jsonschema validate schemas/album.schema.json $(find albums/*)
 
   build:
     runs-on: ubuntu-latest
+    needs: validate
     steps:
     - uses: actions/checkout@v5
 
