@@ -1,4 +1,5 @@
 {
+	"$schema": "../schemas/album.schema.json",
 	"title": "Horror Show",
 	"hashtags": [
 		"horrorshow"

@@ -22,6 +22,7 @@
 !albums/*.json
 !fonts/*.ttf
 !images/*.png
+!schemas/*.json
 
 # ...even if they are in subdirectories
 !*/

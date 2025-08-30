@@ -1,4 +1,5 @@
 {
+	"$schema": "../schemas/album.schema.json",
 	"title": "Days of Thunder",
 	"hashtags": [
 		"daysofthunder"

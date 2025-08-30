@@ -1,0 +1,78 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"$id": "https://themidnightlyrics.com/album.schema.json",
+	"title": "Album",
+	"description": "An album with song lyrics",
+	"type": "object",
+	"properties": {
+		"$schema": {
+			"type": "string"
+		},
+		"title": {
+			"type": "string"
+		},
+		"hashtags": {
+			"type": "array",
+			"items": {
+				"type": "string"
+			}
+		},
+		"songs": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"title": {
+						"type": "string"
+					},
+					"spotify_id": {
+						"type": "string",
+						"minLength": 22,
+						"maxLength": 22
+					},
+					"link": {
+						"type": "string",
+						"pattern": "^https:\/\/"
+					},
+					"emoji": {
+						"type": "string"
+					},
+					"hashtags": {
+						"type": "array",
+						"items": {
+							"type": "string"
+						}
+					},
+					"lyrics": {
+						"type": "array",
+						"items": {
+							"type": "array"
+						}
+					}
+				},
+				"required": [
+					"title",
+					"lyrics"
+				],
+				"anyOf": [
+					{
+						"required": [
+							"spotify_id"
+						]
+					},
+					{
+						"required": [
+							"link"
+						]
+					}
+				],
+				"unevaluatedProperties": false
+			}
+		}
+	},
+	"required": [
+		"title",
+		"songs"
+	],
+	"unevaluatedProperties": false
+}
