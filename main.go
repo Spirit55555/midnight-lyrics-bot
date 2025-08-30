@@ -15,6 +15,9 @@ import (
 
 const SPOTIFY_TRACK_LINK = "https://open.spotify.com/track/%s"
 
+const ALT_TEXT_SONG = "Lyrics from a The Midnight song. \nSong title: %s. \nLyrics: %s"
+const ALT_TEXT_ALBUM_SONG = "Lyrics from a The Midnight song. \nAlbum title: %s. \nSong title: %s. \nLyrics: %s"
+
 type Album struct {
 	Title    string
 	Hashtags []string
@@ -91,6 +94,7 @@ func main() {
 
 	var reply, link string
 	var hashtags []string
+	var altText string
 
 	log.Printf("Album title: %s\n", album.Title)
 
@@ -126,6 +130,15 @@ func main() {
 	//Add the default hashtags
 	hashtags = append(hashtags, defaultHashtags...)
 
+	//Generate alt text for images
+	if albumName == "songs" {
+		altText = fmt.Sprintf(ALT_TEXT_SONG, song.Title, lyrics)
+	} else {
+		altText = fmt.Sprintf(ALT_TEXT_ALBUM_SONG, album.Title, song.Title, lyrics)
+	}
+
+	log.Printf("Alt text: %s\n", altText)
+
 	if *blueskyFlag && os.Getenv("BOTSKY_HANDLE") != "" && os.Getenv("BOTSKY_APPKEY") != "" {
 		postToBluesky(lyrics, reply, link, hashtags)
 	}
@@ -136,7 +149,7 @@ func main() {
 
 	if *instagramFlag && os.Getenv("INSTAGRAM_ACCESS_TOKEN") != "" && os.Getenv("INSTAGRAM_IMAGES_URL") != "" {
 		imagePath := generateImage(albumName, album, song, lyrics)
-		postToInstagram(lyrics, reply, imagePath, hashtags)
+		postToInstagram(reply, imagePath, altText, hashtags)
 	}
 }
 

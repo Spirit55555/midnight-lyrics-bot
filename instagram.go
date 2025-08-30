@@ -15,7 +15,7 @@ type InstagramResponse struct {
 	Id string
 }
 
-func postToInstagram(post, caption, imagePath string, hashtags []string) {
+func postToInstagram(caption, imagePath, altText string, hashtags []string) {
 	imageURL := os.Getenv("INSTAGRAM_IMAGES_URL") + "/" + imagePath
 
 	//Add #hashtags to caption
@@ -30,7 +30,7 @@ func postToInstagram(post, caption, imagePath string, hashtags []string) {
 	}
 
 	//Create post
-	container := makeRequestToInstagram("media", url.Values{"image_url": {imageURL}, "caption": {caption}, "alt_text": {post}})
+	container := makeRequestToInstagram("media", url.Values{"image_url": {imageURL}, "caption": {caption}, "alt_text": {altText}})
 	log.Printf("Instagram container ID: %s", container.Id)
 
 	//Publish post
