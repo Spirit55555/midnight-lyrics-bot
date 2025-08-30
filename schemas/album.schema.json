@@ -32,6 +32,7 @@
 					},
 					"link": {
 						"type": "string",
+						"format": "uri",
 						"pattern": "^https:\/\/"
 					},
 					"emoji": {
