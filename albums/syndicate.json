@@ -215,7 +215,9 @@
 		{
 			"title": "Summer's Ending Soon",
 			"spotify_id": "3nTjq4UCsLiydG4q84TVyK",
-			"hashtags": "summersendingsoon",
+			"hashtags": [
+				"summersendingsoon"
+			],
 			"lyrics": [
 				[
 					"What if there’s no answer",
