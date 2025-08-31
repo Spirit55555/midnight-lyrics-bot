@@ -1,0 +1,44 @@
+{
+	"$schema": "../schemas/album.schema.json",
+	"title": "Vehlinggo Presents: 5 Years",
+	"songs": [
+		{
+			"title": "Sometimes She Smiles",
+			"spotify_id": "36q8Nykkb2aq3M643lwq5a",
+			"hashtags": [
+				"sometimesshesmiles",
+				"vehlinggo"
+			],
+			"lyrics": [
+				[
+					"He spoke of the truth and how it might save her",
+					"And she spoke of the trees in Vermont in the winter"
+				],
+				[
+					"He said we must strive for faith through devotion",
+					"While she dreams of the smell of the Indian Ocean"
+				],
+				[
+					"He spoke in philosophical structure",
+					"She spoke of a vineyard, she spoke of her lover"
+				],
+				[
+					"When he does not understand",
+					"You can hear bones breaking in his head",
+					"When she does not understand"
+				],
+				[
+					"Sometimes she smiles",
+					"When he does not understand",
+					"You can hear bones breaking in his head",
+					"When she does not understand"
+				],
+				[
+					"Sometimes she smiles",
+					"He said reason is what separates man from the beasts",
+					"And she kissed him and put him at ease"
+				]
+			]
+		}
+	]
+}
