@@ -12,7 +12,6 @@ RUN CGO_ENABLED=0 GOOS=linux go build -ldflags="-s -w" -o midnight-lyrics-bot
 FROM alpine:latest
 
 RUN apk add --no-cache tzdata
-ENV TZ=Europe/Copenhagen
 
 COPY --from=build /build/midnight-lyrics-bot ./
 COPY --parents albums/ fonts/ images/ ./
