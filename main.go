@@ -45,7 +45,7 @@ var albums = []string{
 	"night_drive",
 	"silence",
 	"land_locked_heart",
-	"vehlinggo"
+	"vehlinggo",
 	"songs",
 }
 
