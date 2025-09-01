@@ -40,7 +40,7 @@ Environment variables required:
 
 ## Other command line flags
 
-- `-generate-image` - Used to generate the image for the selected (or random) lyric. Only useful for testing.
+- `-generate-image` - Used to generate the image for the selected (or random) lyric. Album and song number can be specified. Only useful for testing.
 - `-generate-all-images` - Used to generate all the images needed for the Instagram part of the bot. Only useful for testing, as the bot will generate images as needed.
 - `-fake-midnight` - Fake that the time is 00:00. Only useful for testing of the special post at midnight.
 
