@@ -58,6 +58,7 @@ func main() {
 	blueskyFlag := flag.Bool("bluesky", false, "If it should post to Bluesky")
 	threadsFlag := flag.Bool("threads", false, "If it should post to Threads")
 	instagramFlag := flag.Bool("instagram", false, "If it should post to Instagram")
+	generateImageFlag := flag.Bool("generate-image", false, "Generate the lyrics image, useful when specifying the album and/or song (for testing only)")
 	generateAllImagesFlag := flag.Bool("generate-all-images", false, "Generate all images (for testing only)")
 	fakeMidnightFlag := flag.Bool("fake-midnight", false, "Fake that it's midnight (for testing only)")
 	flag.Parse()
@@ -140,6 +141,11 @@ func main() {
 	}
 
 	log.Printf("Alt text: %s\n", altText)
+
+	if *generateImageFlag {
+		imagePath := generateImage(albumName, album, song, lyrics)
+		log.Printf("Image generated: %s\n", imagePath)
+	}
 
 	if *blueskyFlag && os.Getenv("BOTSKY_HANDLE") != "" && os.Getenv("BOTSKY_APPKEY") != "" {
 		postToBluesky(lyrics, reply, link, hashtags)
