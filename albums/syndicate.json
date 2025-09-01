@@ -6,138 +6,6 @@
 	],
 	"songs": [
 		{
-			"title": "Chariot",
-			"spotify_id": "7LRx0xmYQqpWPaBsTUWzC2",
-			"hashtags": [
-				"chariot"
-			],
-			"lyrics": [
-				[
-					"I can see it (he broke your heart)",
-					"I can see it (he broke your heart)",
-					"I can see it on your pretty face"
-				],
-				[
-					"I can see it (he broke your heart)",
-					"I can see it (he broke your heart)",
-					"I can see it on your pretty face",
-					"That heartbreak"
-				],
-				[
-					"Is it about control",
-					"Tell me I wanna know",
-					"Have you been burned before",
-					"On some other chariot"
-				],
-				[
-					"I make the crosstown run",
-					"Faster than anyone",
-					"Let the reigns take themselves",
-					"And fly like a loaded gun"
-				],
-				[
-					"Faster Faster Free",
-					"Coming close to me"
-				],
-				[
-					"(He broke your) You only like the bad boys",
-					"(He broke your heart) I can see it on your pretty face",
-					"(He broke your heart) I could be that new toy",
-					"(He broke your heart) I could be that heartbreak",
-					"He broke your heart again"
-				],
-				[
-					"Washed up in the city of sin singing",
-					"Washed up in the city of sin singing",
-					"Washed up in the city of sin singing"
-				],
-				[
-					"Is it about control",
-					"Or are you just a restless soul",
-					"Burned by some former king",
-					"Some other small town scene"
-				],
-				[
-					"That's not my kind of love",
-					"I race for fame and fun",
-					"The secret is when to know",
-					"When to let it go"
-				]
-			]
-		},
-		{
-			"title": "Digital Dreams",
-			"spotify_id": "0cEZKdHAH1eZqdqpflrA4Y",
-			"hashtags": [
-				"digitaldreams"
-			],
-			"lyrics": [
-				[
-					"I was born in a room with flourescent lights",
-					"Raised to be kind and afraid of heights"
-				],
-				[
-					"But they always seemed to find me",
-					"At night, out on the ledge"
-				],
-				[
-					"Catching glimpses of the strange fruit",
-					"That grows beyond the edge"
-				],
-				[
-					"Where do you go in the darkness",
-					"When you're alone in your bed",
-					"How do you dream",
-					"When you're just a machine",
-					"Imagining colors you can't see"
-				],
-				[
-					"I worked the same job everybody had",
-					"And they said I was special",
-					"If a bit too sad"
-				],
-				[
-					"If we're all connected",
-					"Why can't we seem to get along",
-					"Why does every road I take to leave just bring me home"
-				],
-				[
-					"And why does the journey feel so lonely",
-					"It's been so long",
-					"Will these questions matter when we're gone"
-				]
-			]
-		},
-		{
-			"title": "Love is an Ocean",
-			"spotify_id": "2WaBqUXrYqPyi2sqEIjWf4",
-			"hashtags": [
-				"loveisanocean"
-			],
-			"lyrics": [
-				[
-					"I move slowly in the haze of people posing like the sun",
-					"Under glowing eyes of neon skies spinning in slow motion"
-				],
-				[
-					"Diving deep in the heart",
-					"Floating in the blue",
-					"And the ocean has arms",
-					"Let it carry me to you"
-				],
-				[
-					"Cause love is an ocean",
-					"Love is an ocean",
-					"Love is an ocean",
-					"Love is an ocean"
-				],
-				[
-					"And our life back at the surface has us struggle through our days",
-					"But when sun bursts on the water I feel longing to escape"
-				]
-			]
-		},
-		{
 			"title": "Shadowverse",
 			"spotify_id": "6096liP1QSMPsZo98MXwvZ",
 			"hashtags": [
@@ -209,6 +77,138 @@
 					"Out of time and fading",
 					"Out of time",
 					"Empty hearts waiting"
+				]
+			]
+		},
+		{
+			"title": "Digital Dreams",
+			"spotify_id": "0cEZKdHAH1eZqdqpflrA4Y",
+			"hashtags": [
+				"digitaldreams"
+			],
+			"lyrics": [
+				[
+					"I was born in a room with flourescent lights",
+					"Raised to be kind and afraid of heights"
+				],
+				[
+					"But they always seemed to find me",
+					"At night, out on the ledge"
+				],
+				[
+					"Catching glimpses of the strange fruit",
+					"That grows beyond the edge"
+				],
+				[
+					"Where do you go in the darkness",
+					"When you're alone in your bed",
+					"How do you dream",
+					"When you're just a machine",
+					"Imagining colors you can't see"
+				],
+				[
+					"I worked the same job everybody had",
+					"And they said I was special",
+					"If a bit too sad"
+				],
+				[
+					"If we're all connected",
+					"Why can't we seem to get along",
+					"Why does every road I take to leave just bring me home"
+				],
+				[
+					"And why does the journey feel so lonely",
+					"It's been so long",
+					"Will these questions matter when we're gone"
+				]
+			]
+		},
+		{
+			"title": "Chariot",
+			"spotify_id": "7LRx0xmYQqpWPaBsTUWzC2",
+			"hashtags": [
+				"chariot"
+			],
+			"lyrics": [
+				[
+					"I can see it (he broke your heart)",
+					"I can see it (he broke your heart)",
+					"I can see it on your pretty face"
+				],
+				[
+					"I can see it (he broke your heart)",
+					"I can see it (he broke your heart)",
+					"I can see it on your pretty face",
+					"That heartbreak"
+				],
+				[
+					"Is it about control",
+					"Tell me I wanna know",
+					"Have you been burned before",
+					"On some other chariot"
+				],
+				[
+					"I make the crosstown run",
+					"Faster than anyone",
+					"Let the reigns take themselves",
+					"And fly like a loaded gun"
+				],
+				[
+					"Faster Faster Free",
+					"Coming close to me"
+				],
+				[
+					"(He broke your) You only like the bad boys",
+					"(He broke your heart) I can see it on your pretty face",
+					"(He broke your heart) I could be that new toy",
+					"(He broke your heart) I could be that heartbreak",
+					"He broke your heart again"
+				],
+				[
+					"Washed up in the city of sin singing",
+					"Washed up in the city of sin singing",
+					"Washed up in the city of sin singing"
+				],
+				[
+					"Is it about control",
+					"Or are you just a restless soul",
+					"Burned by some former king",
+					"Some other small town scene"
+				],
+				[
+					"That's not my kind of love",
+					"I race for fame and fun",
+					"The secret is when to know",
+					"When to let it go"
+				]
+			]
+		},
+		{
+			"title": "Love is an Ocean",
+			"spotify_id": "2WaBqUXrYqPyi2sqEIjWf4",
+			"hashtags": [
+				"loveisanocean"
+			],
+			"lyrics": [
+				[
+					"I move slowly in the haze of people posing like the sun",
+					"Under glowing eyes of neon skies spinning in slow motion"
+				],
+				[
+					"Diving deep in the heart",
+					"Floating in the blue",
+					"And the ocean has arms",
+					"Let it carry me to you"
+				],
+				[
+					"Cause love is an ocean",
+					"Love is an ocean",
+					"Love is an ocean",
+					"Love is an ocean"
+				],
+				[
+					"And our life back at the surface has us struggle through our days",
+					"But when sun bursts on the water I feel longing to escape"
 				]
 			]
 		},
