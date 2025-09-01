@@ -44,6 +44,16 @@ Environment variables required:
 - `-generate-all-images` - Used to generate all the images needed for the Instagram part of the bot. Only useful for testing, as the bot will generate images as needed.
 - `-fake-midnight` - Fake that the time is 00:00. Only useful for testing of the special post at midnight.
 
+## Specify album and song
+
+If you want a specific album and (optionally) song selected when running the bot, it can take them as parameters like so:
+
+```
+midnight-lyrics-bot days_of_thunder 6
+```
+
+This will select a random lyric from the song Los Angeles from the Days of Thunder album.
+
 ## Docker
 
 Assuming you are in the source directory, the bot can be built and installed via [Docker](https://www.docker.com/) the following way:
