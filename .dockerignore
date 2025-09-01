@@ -3,6 +3,7 @@
 .github
 Dockerfile
 generated_images
+schemas
 LICENSE
 midnight-lyrics-bot
 README.md
