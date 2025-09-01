@@ -1,6 +1,6 @@
 module github.com/Spirit55555/midnight-lyrics-bot
 
-go 1.24.4
+go 1.25
 
 require (
 	git.sr.ht/~sbinet/gg v0.6.0
