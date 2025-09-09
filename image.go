@@ -16,6 +16,11 @@ const WIDTH int = 1090
 const HEIGHT int = 1350
 const MARGIN int = 78
 
+const FONT = "fonts/Optiker-K.ttf"
+const TEXT_COLOR = "F4F4F4"
+const SHADOW_COLOR = "000000"
+const SHADOW_OFFSET = 2
+
 func generateImage(albumName string, album Album, song Song, lyrics string) (imagePath string) {
 	albumFile, _ := os.Open("images/" + albumName + ".png")
 	defer albumFile.Close()
@@ -29,12 +34,23 @@ func generateImage(albumName string, album Album, song Song, lyrics string) (ima
 	}
 
 	dc := gg.NewContextForImage(albumBackground)
-	dc.SetHexColor("F4F4F4")
 
-	dc.LoadFontFace("fonts/Optiker-K.ttf", 62)
+	//Lyrics
+	dc.LoadFontFace(FONT, 62)
+
+	dc.SetHexColor(SHADOW_COLOR)
+	dc.DrawStringWrapped(lyrics, float64(WIDTH/2)+SHADOW_OFFSET, float64(HEIGHT/2)+SHADOW_OFFSET, 0.5, 0.5, float64(WIDTH-(MARGIN*2)), 1.2, gg.AlignCenter)
+
+	dc.SetHexColor(TEXT_COLOR)
 	dc.DrawStringWrapped(lyrics, float64(WIDTH/2), float64(HEIGHT/2), 0.5, 0.5, float64(WIDTH-(MARGIN*2)), 1.2, gg.AlignCenter)
 
-	dc.LoadFontFace("fonts/Optiker-K.ttf", 40)
+	//Album/song title
+	dc.LoadFontFace(FONT, 40)
+
+	dc.SetHexColor(SHADOW_COLOR)
+	dc.DrawStringWrapped(title, float64(MARGIN)+SHADOW_OFFSET, float64(HEIGHT-175)+SHADOW_OFFSET, 0, 0, 700, 1.5, gg.AlignLeft)
+
+	dc.SetHexColor(TEXT_COLOR)
 	dc.DrawStringWrapped(title, float64(MARGIN), float64(HEIGHT-175), 0, 0, 700, 1.5, gg.AlignLeft)
 
 	hash := sha1.Sum([]byte(lyrics))
