@@ -36,17 +36,17 @@ type Song struct {
 var albums = []string{
 	"days_of_thunder",
 	"endless_summer",
-	"nocturnal",
-	"kids",
-	"monsters",
-	"horror_show",
 	"heroes",
-	"syndicate",
-	"night_drive",
-	"silence",
+	"horror_show",
+	"kids",
 	"land_locked_heart",
-	"vehlinggo",
+	"monsters",
+	"night_drive",
+	"nocturnal",
+	"silence",
 	"songs",
+	"syndicate",
+	"vehlinggo",
 }
 
 var defaultHashtags = []string{
