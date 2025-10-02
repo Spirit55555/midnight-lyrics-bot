@@ -12,7 +12,10 @@ import (
 )
 
 type InstagramResponse struct {
-	Id string
+	Id    string
+	Error struct {
+		Message string
+	}
 }
 
 func postToInstagram(caption, imagePath, altText string, hashtags []string) {
@@ -31,11 +34,21 @@ func postToInstagram(caption, imagePath, altText string, hashtags []string) {
 
 	//Create post
 	container := makeRequestToInstagram("media", url.Values{"image_url": {imageURL}, "caption": {caption}, "alt_text": {altText}})
-	log.Printf("Instagram container ID: %s", container.Id)
+
+	if container.Id != "" {
+		log.Printf("Instagram container ID: %s", container.Id)
+	} else {
+		log.Printf("Instagram container error: %s", container.Error.Message)
+	}
 
 	//Publish post
 	publish := makeRequestToInstagram("media_publish", url.Values{"creation_id": {container.Id}})
-	log.Printf("Instagram publish ID: %s", publish.Id)
+
+	if publish.Id != "" {
+		log.Printf("Instagram publish ID: %s", publish.Id)
+	} else {
+		log.Printf("Instagram publish error: %s", container.Error.Message)
+	}
 }
 
 func makeRequestToInstagram(endpoint string, params url.Values) (response InstagramResponse) {
@@ -49,6 +62,12 @@ func makeRequestToInstagram(endpoint string, params url.Values) (response Instag
 	}
 
 	defer resp.Body.Close()
+
+	if resp.StatusCode != 200 {
+		log.Printf("Instagram returned \"%s\" for request to %s", resp.Status, resp.Request.URL)
+
+		return response
+	}
 
 	respBody, err := io.ReadAll(resp.Body)
 
