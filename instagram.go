@@ -9,6 +9,7 @@ import (
 	"net/http"
 	"net/url"
 	"os"
+	"time"
 )
 
 type InstagramResponse struct {
@@ -40,6 +41,9 @@ func postToInstagram(caption, imagePath, altText string, hashtags []string) {
 	} else {
 		log.Printf("Instagram container error: %s", container.Error.Message)
 	}
+
+	//Sleep for 5 secs, container should be ready by then
+	time.Sleep(5 * time.Second)
 
 	//Publish post
 	publish := makeRequestToInstagram("media_publish", url.Values{"creation_id": {container.Id}})
