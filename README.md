@@ -1,7 +1,9 @@
 # The Midnight Lyrics bot
+
 This bot will post song lyrics from [The Midnight](https://themidnightofficial.com/) on different social media platform.
 
 The following platforms are currently supported:
+
 - Bluesky
 - Instagram
 - Threads
@@ -14,6 +16,7 @@ Based on [Julia](https://github.com/juliajungle)'s original [Node.js version](ht
 Command line flag: `-bluesky`
 
 Environment variables required:
+
 - `BOTSKY_HANDLE`
 - `BOTSKY_APPKEY`
 
@@ -22,6 +25,7 @@ Environment variables required:
 Command line flag: `-instagram`
 
 Environment variables required:
+
 - `INSTAGRAM_ACCESS_TOKEN`
 - `INSTAGRAM_IMAGES_URL`
 
@@ -36,11 +40,12 @@ If `INSTAGRAM_IMAGES_URL` is set to `https://instagram.example.com` then the ima
 Command line flag: `-threads`
 
 Environment variables required:
+
 - `THREADS_ACCESS_TOKEN`
 
 ## Other command line flags
 
-- `-refresh-tokens` - USe to refresh and print new tokens for Threads and Instagram.
+- `-refresh-tokens` - Used to refresh and print new tokens for Threads and Instagram.
 - `-generate-image` - Used to generate the image for the selected (or random) lyric. Album and song number can be specified. Only useful for testing.
 - `-generate-all-images` - Used to generate all the images needed for the Instagram part of the bot. Only useful for testing, as the bot will generate images as needed.
 - `-fake-midnight` - Fake that the time is 00:00. Only useful for testing of the special post at midnight.
