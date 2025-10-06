@@ -17,6 +17,11 @@ type ThreadsResponse struct {
 	Error struct {
 		Message string
 	}
+
+	// Used by refresh_access_token endpoint
+	AccessToken string `json:"access_token"`
+	TokenType   string `json:"token_type"`
+	ExpiresIn   int    `json:"expires_in"`
 }
 
 func postToThreads(post, reply, link string) {
@@ -87,6 +92,38 @@ func makeRequestToThreads(endpoint string, params url.Values) (response ThreadsR
 
 		return response
 	}
+
+	respBody, err := io.ReadAll(resp.Body)
+
+	if err != nil {
+		log.Panic(err)
+	}
+
+	if err := json.Unmarshal(respBody, &response); err != nil {
+		log.Panic(err)
+	}
+
+	return response
+}
+
+func makeRefreshTokenRequestToThreads() (response ThreadsResponse) {
+	accessToken := os.Getenv("THREADS_ACCESS_TOKEN")
+
+	url, _ := url.Parse(fmt.Sprintf("https://graph.threads.net/v1.0/%s", "refresh_access_token"))
+	query := url.Query()
+
+	query.Add("grant_type", "ig_refresh_token")
+	query.Add("access_token", accessToken)
+
+	url.RawQuery = query.Encode()
+
+	resp, err := http.Get(url.String())
+
+	if err != nil {
+		log.Panic(err)
+	}
+
+	defer resp.Body.Close()
 
 	respBody, err := io.ReadAll(resp.Body)
 

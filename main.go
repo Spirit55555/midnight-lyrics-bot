@@ -58,6 +58,7 @@ func main() {
 	blueskyFlag := flag.Bool("bluesky", false, "If it should post to Bluesky")
 	threadsFlag := flag.Bool("threads", false, "If it should post to Threads")
 	instagramFlag := flag.Bool("instagram", false, "If it should post to Instagram")
+	refreshTokensFlag := flag.Bool("refresh-tokens", false, "Refresh and print new tokens for Threads and Instagram")
 	generateImageFlag := flag.Bool("generate-image", false, "Generate the lyrics image, useful when specifying the album and/or song (for testing only)")
 	generateAllImagesFlag := flag.Bool("generate-all-images", false, "Generate all images (for testing only)")
 	fakeMidnightFlag := flag.Bool("fake-midnight", false, "Fake that it's midnight (for testing only)")
@@ -67,6 +68,30 @@ func main() {
 
 	if *generateAllImagesFlag {
 		generateAllImages()
+		os.Exit(0)
+	}
+
+	if *refreshTokensFlag {
+		if os.Getenv("THREADS_ACCESS_TOKEN") != "" {
+			threadsResponse := makeRefreshTokenRequestToThreads()
+
+			if threadsResponse.AccessToken != "" {
+				log.Printf("Threads new token: %s", threadsResponse.AccessToken)
+			} else {
+				log.Printf("Threads error message: %s", threadsResponse.Error.Message)
+			}
+		}
+
+		if os.Getenv("INSTAGRAM_ACCESS_TOKEN") != "" {
+			instagramResponse := makeRefreshTokenRequestToInstagram()
+
+			if instagramResponse.AccessToken != "" {
+				log.Printf("Instagram new token: %s", instagramResponse.AccessToken)
+			} else {
+				log.Printf("Instagram error message: %s", instagramResponse.Error.Message)
+			}
+		}
+
 		os.Exit(0)
 	}
 
