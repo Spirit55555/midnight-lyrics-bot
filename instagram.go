@@ -74,8 +74,6 @@ func makeRequestToInstagram(endpoint string, params url.Values) (response Instag
 
 	if resp.StatusCode != 200 {
 		log.Printf("Instagram returned \"%s\" for request to %s", resp.Status, resp.Request.URL)
-
-		return response
 	}
 
 	respBody, err := io.ReadAll(resp.Body)

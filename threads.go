@@ -89,8 +89,6 @@ func makeRequestToThreads(endpoint string, params url.Values) (response ThreadsR
 
 	if resp.StatusCode != 200 {
 		log.Printf("Threads returned \"%s\" for request to %s", resp.Status, resp.Request.URL)
-
-		return response
 	}
 
 	respBody, err := io.ReadAll(resp.Body)
