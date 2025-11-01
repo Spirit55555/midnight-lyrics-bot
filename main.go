@@ -34,6 +34,7 @@ type Song struct {
 }
 
 var albums = []string{
+	"cold_pizza",
 	"days_of_thunder",
 	"endless_summer",
 	"heroes",
@@ -47,7 +48,6 @@ var albums = []string{
 	"songs",
 	"syndicate",
 	"vehlinggo",
-	"cold_pizza",
 }
 
 var defaultHashtags = []string{
