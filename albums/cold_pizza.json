@@ -1,0 +1,19 @@
+{
+	"$schema": "../schemas/album.schema.json",
+	"title": "C O L D P I Z Z A",
+	"songs": [
+		{
+			"title": "C O L D P I Z Z A",
+			"link": "https://www.youtube.com/watch?v=8i5MYaVSSHE",
+			"emoji": "🍕",
+			"hashtags": [
+				"coldpizza"
+			],
+			"lyrics": [
+				[
+					"Cold pizza"
+				]
+			]
+		}
+	]
+}

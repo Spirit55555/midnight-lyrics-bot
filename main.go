@@ -47,6 +47,7 @@ var albums = []string{
 	"songs",
 	"syndicate",
 	"vehlinggo",
+	"cold_pizza",
 }
 
 var defaultHashtags = []string{
