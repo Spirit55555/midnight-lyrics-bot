@@ -1,0 +1,58 @@
+{
+	"$schema": "../schemas/album.schema.json",
+	"title": "Neon Odyssey",
+	"hashtags": [
+		"neonodyssey"
+	],
+	"songs": [
+		{
+			"title": "Neon Odyssey",
+			"spotify_id": "2mE4Uei06p37of4KmaLXRy",
+			"hashtags": [
+				"avantris"
+			],
+			"lyrics": [
+				[
+					"When the long working day uptown is over",
+					"All the subway lines wrap around the world"
+				],
+				[
+					"I carry myself up the stairs and pull the covers closer",
+					"Chasing the dream that I might find myself again"
+				],
+				[
+					"When a memory is a time machine",
+					"Whispers quiet but defiantly",
+					"It’s time to leave"
+				],
+				[
+					"When a memory is a time machine",
+					"Fly you on its wings from your history",
+					"To what might yet be a reason to believe"
+				],
+				[
+					"It’s out beyond the breakers",
+					"It’s waiting for the takers on the edge of day",
+					"The golden gleam before it fades away"
+				],
+				[
+					"On the outer edge of inner space",
+					"The gaze of a familiar face in front of me",
+					"Reminds a neon odyssey awaits"
+				],
+				[
+					"In the cracks another skyline waits to open",
+					"For a second you can see the seams appear"
+				],
+				[
+					"Is it a trick of light or a dare to raise the curtain",
+					"Or a cave to enter just to face your fears"
+				],
+				[
+					"I know a neon odyssey awaits",
+					"I know a neon odyssey awaits"
+				]
+			]
+		}
+	]
+}
