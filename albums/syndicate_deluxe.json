@@ -1,0 +1,10 @@
+{
+	"$schema": "../schemas/album.schema.json",
+	"title": "Syndicate (Deluxe)",
+	"hashtags": [
+		"syndicate",
+		"deluxe"
+	],
+	"songs": [
+	]
+}
