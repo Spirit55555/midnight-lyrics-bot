@@ -35,6 +35,9 @@ jobs:
     - name: Build
       run: go build -v -ldflags="-s -w" ./...
 
+    - name: Test
+      run: go test ./...
+
     - name: Create zip of build Go executable
       uses: actions/upload-artifact@v7
       with:
