@@ -52,6 +52,83 @@
 					"Everything's made of gods here"
 				]
 			]
+		},
+		{
+			"title": "Infinite - Demo",
+			"spotify_id": "1AgklDPRDjrlQsIrAfuwF2",
+			"hashtags": [
+				"infinite",
+				"demo"
+			],
+			"lyrics": [
+				[
+					"Your mama died and left you the farm",
+					"You moved back from the city, learned to see the stars",
+					"Forgotten lives you forgot you carried",
+					"Your former selves you forgot to bury"
+				],
+				[
+					"You read the old books you used to need",
+					"To make you whole, make you feel complete",
+					"Then you made the drinks you used to love",
+					"But somewhere, you lost the taste for the social drugs"
+				],
+				[
+					"The ancient, empty skies",
+					"That haunt you all your life",
+					"Projections of the lights that have long left you bеhind"
+				],
+				[
+					"When it doesn't feel like homе",
+					"You turn the music up",
+					"'Cause time, it takes its toll",
+					"And it don't feel like it was",
+					"But it hits you when it does"
+				],
+				[
+					"And you roll the windows down",
+					"And you turn the music up",
+					"When the sun shines on this town",
+					"It almost feels like love",
+					"We're infinite enough"
+				],
+				[
+					"You told the stories, but they fell through",
+					"In a strange land where the stranger's you",
+					"And all the masks that you used to wear",
+					"Just to find out here nobody cares"
+				],
+				[
+					"You saw a girl from afar",
+					"She was reading Jaws at the local bar",
+					"You found the words and brought her home",
+					"To your childhood bed in a thunderstorm"
+				],
+				[
+					"Can you see the sun rising?",
+					"Can you see the blue sky shining?",
+					"The only thing stronger than all that I can find is",
+					"Time"
+				]
+			]
+		},
+		{
+			"title": "Against the Dark - Demo",
+			"spotify_id": "60frpfgYTBn0PI2LSO80fn",
+			"hashtags": [
+				"againstthedark",
+				"demo"
+			],
+			"lyrics": []
+		},
+		{
+			"title": "'Til the Stars Come Out - Demo",
+			"spotify_id": "1hImXFSL004UUloY1YHr5Y",
+			"hashtags": [
+				"tilthestarscomeout",
+				"demo"
+			],
+			"lyrics": []
 		}
 	]
 }
