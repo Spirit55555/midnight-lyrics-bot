@@ -48,6 +48,7 @@ var albums = []string{
 	"silence",
 	"songs",
 	"syndicate",
+	"syndicate_deluxe",
 	"vehlinggo",
 }
 
