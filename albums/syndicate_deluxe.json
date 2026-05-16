@@ -6,5 +6,52 @@
 		"deluxe"
 	],
 	"songs": [
+		{
+			"title": "Last Night in Paris",
+			"spotify_id": "7wFu64KXRq42injLh7ZEGU",
+			"hashtags": [
+				"lastnightinparis",
+				"carpenterbrut"
+			],
+			"lyrics": [
+				[
+					"Take youth like a drug, get fucked up",
+					"Anyone who dares, ever cared, put your cup up",
+					"Fade into the drums, rainbow on my tongue",
+					"Fall in love with everyone"
+				],
+				[
+					"Half-gods half-dressed in the twilight",
+					"Anyone who dares, ever cared, get your act right",
+					"Fade into the drums, rainbow on my tongue",
+					"Fall in love with everyone"
+				],
+				[
+					"I'm gonna live forever",
+					"I'm gonna live forever",
+					"In you, in me, and suddenly",
+					"Everything is made of gods",
+					"Take your body up",
+					"Forever"
+				],
+				[
+					"I'm gonna live forever",
+					"In the seas, the trees, the canopy",
+					"The poison is the cure",
+					"Pull the trigger, now I'm shot"
+				],
+				[
+					"In the half-light, in the black sky",
+					"All the salt binds when the night cries",
+					"And fireflies with stone eyes"
+				],
+				[
+					"When the half-gods go, the gods arise",
+					"Everything's made of gods here",
+					"Can't tell you what I saw, dear",
+					"Everything's made of gods here"
+				]
+			]
+		}
 	]
 }
