@@ -42,7 +42,7 @@ var albums = []string{
 	"kids",
 	"land_locked_heart",
 	"monsters",
-	//"neon_oddysey",
+	"neon_oddysey",
 	"night_drive",
 	"nocturnal",
 	"silence",
