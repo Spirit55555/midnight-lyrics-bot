@@ -156,7 +156,39 @@
 				"tilthestarscomeout",
 				"demo"
 			],
-			"lyrics": []
+			"lyrics": [
+				[
+					"The lone ranger on his white steed",
+					"Is now a stranger on the run",
+					"When he was young, his heart was bursting",
+					"Danger was only just for fun"
+				],
+				[
+					"But now this savior complex",
+					"It doesn't seem to help",
+					"And for a hero once exalted",
+					"Is now a stranger to himself"
+				],
+				[
+					"There comes a time for our hero to die",
+					"To be born again in another land",
+					"Yeah, someone else, another pilgrim's quest",
+					"Another crucible, another funeral"
+				],
+				[
+					"I don't wanna be the hero in my story anymore",
+					"And I don't wanna be the hero in yours",
+					"I just wanna be around to watch the sun go down",
+					"I just wanna watch the painted clouds pass along this desert town",
+					"'Til the stars come out"
+				],
+				[
+					"In my twenties, I was flying",
+					"Decades in the tempest throws",
+					"I'm not the hero that you need now",
+					"I'm not the hero that I know"
+				]
+			]
 		}
 	]
 }
