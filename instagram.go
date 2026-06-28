@@ -3,7 +3,6 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"io"
 	"log"
 	"maps"
 	"net/http"
@@ -76,13 +75,7 @@ func makeRequestToInstagram(endpoint string, params url.Values) (response Instag
 		log.Printf("Instagram returned \"%s\" for request to %s", resp.Status, resp.Request.URL)
 	}
 
-	respBody, err := io.ReadAll(resp.Body)
-
-	if err != nil {
-		log.Panic(err)
-	}
-
-	if err := json.Unmarshal(respBody, &response); err != nil {
+	if err := json.NewDecoder(resp.Body).Decode(&response); err != nil {
 		log.Panic(err)
 	}
 
@@ -108,13 +101,7 @@ func makeRefreshTokenRequestToInstagram() (response InstagramResponse) {
 
 	defer resp.Body.Close()
 
-	respBody, err := io.ReadAll(resp.Body)
-
-	if err != nil {
-		log.Panic(err)
-	}
-
-	if err := json.Unmarshal(respBody, &response); err != nil {
+	if err := json.NewDecoder(resp.Body).Decode(&response); err != nil {
 		log.Panic(err)
 	}
 

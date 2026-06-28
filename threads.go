@@ -3,7 +3,6 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"io"
 	"log"
 	"maps"
 	"net/http"
@@ -91,13 +90,7 @@ func makeRequestToThreads(endpoint string, params url.Values) (response ThreadsR
 		log.Printf("Threads returned \"%s\" for request to %s", resp.Status, resp.Request.URL)
 	}
 
-	respBody, err := io.ReadAll(resp.Body)
-
-	if err != nil {
-		log.Panic(err)
-	}
-
-	if err := json.Unmarshal(respBody, &response); err != nil {
+	if err := json.NewDecoder(resp.Body).Decode(&response); err != nil {
 		log.Panic(err)
 	}
 
@@ -123,13 +116,7 @@ func makeRefreshTokenRequestToThreads() (response ThreadsResponse) {
 
 	defer resp.Body.Close()
 
-	respBody, err := io.ReadAll(resp.Body)
-
-	if err != nil {
-		log.Panic(err)
-	}
-
-	if err := json.Unmarshal(respBody, &response); err != nil {
+	if err := json.NewDecoder(resp.Body).Decode(&response); err != nil {
 		log.Panic(err)
 	}
 
