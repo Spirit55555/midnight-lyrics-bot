@@ -66,7 +66,7 @@ func MakePOSTRequest(service Service, accessToken string, endpoint string, param
 	return response
 }
 
-func RefreshToken(service Service, token string) (response Response) {
+func RefreshToken(service Service, accessToken string) (response Response) {
 	var endpoint string
 	var grantType string
 
@@ -83,7 +83,7 @@ func RefreshToken(service Service, token string) (response Response) {
 	query := url.Query()
 
 	query.Add("grant_type", grantType)
-	query.Add("access_token", token)
+	query.Add("access_token", accessToken)
 
 	url.RawQuery = query.Encode()
 
