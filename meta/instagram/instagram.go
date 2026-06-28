@@ -1,4 +1,4 @@
-package main
+package instagram
 
 import (
 	"encoding/json"
@@ -9,6 +9,8 @@ import (
 	"net/url"
 	"os"
 	"time"
+
+	"github.com/Spirit55555/midnight-lyrics-bot/utils"
 )
 
 type InstagramResponse struct {
@@ -23,12 +25,12 @@ type InstagramResponse struct {
 	ExpiresIn   int    `json:"expires_in"`
 }
 
-func postToInstagram(caption, imagePath, altText string, hashtags []string) {
+func Post(caption, imagePath, altText string, hashtags []string) {
 	imageURL := os.Getenv("INSTAGRAM_IMAGES_URL") + "/" + imagePath
 
 	//Add #hashtags to caption
 	if len(hashtags) > 0 {
-		hashtagString := getHashtagsAsString(hashtags)
+		hashtagString := utils.GetHashtagsAsString(hashtags)
 
 		if caption != "" {
 			caption = caption + " " + hashtagString
@@ -82,7 +84,7 @@ func makeRequestToInstagram(endpoint string, params url.Values) (response Instag
 	return response
 }
 
-func makeRefreshTokenRequestToInstagram() (response InstagramResponse) {
+func RefreshToken() (response InstagramResponse) {
 	accessToken := os.Getenv("INSTAGRAM_ACCESS_TOKEN")
 
 	url, _ := url.Parse(fmt.Sprintf("https://graph.instagram.com/v23.0/%s", "refresh_access_token"))

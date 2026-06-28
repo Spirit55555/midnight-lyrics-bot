@@ -1,4 +1,4 @@
-package main
+package threads
 
 import (
 	"encoding/json"
@@ -23,7 +23,7 @@ type ThreadsResponse struct {
 	ExpiresIn   int    `json:"expires_in"`
 }
 
-func postToThreads(post, reply, link string) {
+func Post(post, reply, link string) {
 	//Add link to reply
 	if reply != "" && link != "" {
 		reply = reply + " " + link
@@ -97,7 +97,7 @@ func makeRequestToThreads(endpoint string, params url.Values) (response ThreadsR
 	return response
 }
 
-func makeRefreshTokenRequestToThreads() (response ThreadsResponse) {
+func RefreshToken() (response ThreadsResponse) {
 	accessToken := os.Getenv("THREADS_ACCESS_TOKEN")
 
 	url, _ := url.Parse(fmt.Sprintf("https://graph.threads.net/v1.0/%s", "refresh_access_token"))

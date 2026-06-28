@@ -1,4 +1,4 @@
-package main
+package image
 
 import (
 	"crypto/sha1"
@@ -10,6 +10,7 @@ import (
 	"strings"
 
 	"git.sr.ht/~sbinet/gg"
+	"github.com/Spirit55555/midnight-lyrics-bot/utils"
 )
 
 const WIDTH int = 1090
@@ -21,7 +22,7 @@ const TEXT_COLOR = "F4F4F4"
 const SHADOW_COLOR = "000000"
 const SHADOW_OFFSET = 2
 
-func generateImage(albumName string, album Album, song Song, lyrics string) (imagePath string) {
+func Generate(albumName string, album utils.Album, song utils.Song, lyrics string) (imagePath string) {
 	albumFile, _ := os.Open("images/" + albumName + ".png")
 	defer albumFile.Close()
 
@@ -63,9 +64,9 @@ func generateImage(albumName string, album Album, song Song, lyrics string) (ima
 	return filepath.Join(songFolder, imageName)
 }
 
-func generateAllImages() {
+func GenerateAll(albums []string) {
 	for _, albumName := range albums {
-		album := getAlbum(albumName)
+		album := utils.GetAlbum(albumName)
 
 		log.Printf("Album: %s\n", album.Title)
 
@@ -78,7 +79,7 @@ func generateAllImages() {
 			for i, lyrics := range lyricParts {
 				log.Printf("(%d/%d)\n", i+1, len(lyricParts))
 
-				generateImage(albumName, album, song, strings.Join(lyrics, "\n"))
+				Generate(albumName, album, song, strings.Join(lyrics, "\n"))
 			}
 		}
 	}

@@ -1,7 +1,6 @@
 package main
 
 import (
-	"encoding/json"
 	"flag"
 	"fmt"
 	"log"
@@ -11,27 +10,18 @@ import (
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/Spirit55555/midnight-lyrics-bot/bluesky"
+	"github.com/Spirit55555/midnight-lyrics-bot/image"
+	"github.com/Spirit55555/midnight-lyrics-bot/meta/instagram"
+	"github.com/Spirit55555/midnight-lyrics-bot/meta/threads"
+	"github.com/Spirit55555/midnight-lyrics-bot/utils"
 )
 
 const SPOTIFY_TRACK_LINK = "https://open.spotify.com/track/%s"
 
 const ALT_TEXT_SONG = "Lyrics from a The Midnight song. \nSong title: %s. \nLyrics: %s"
 const ALT_TEXT_ALBUM_SONG = "Lyrics from a The Midnight song. \nAlbum title: %s. \nSong title: %s. \nLyrics: %s"
-
-type Album struct {
-	Title    string
-	Hashtags []string
-	Songs    []Song
-}
-
-type Song struct {
-	Title     string
-	SpotifyID string `json:"spotify_id"`
-	Link      string
-	Emoji     string
-	Hashtags  []string
-	Lyrics    [][]string
-}
 
 var albums = []string{
 	"cold_pizza",
@@ -70,13 +60,13 @@ func main() {
 	args := flag.Args()
 
 	if *generateAllImagesFlag {
-		generateAllImages()
+		image.GenerateAll(albums)
 		os.Exit(0)
 	}
 
 	if *refreshTokensFlag {
 		if os.Getenv("THREADS_ACCESS_TOKEN") != "" {
-			threadsResponse := makeRefreshTokenRequestToThreads()
+			threadsResponse := threads.RefreshToken()
 
 			if threadsResponse.AccessToken != "" {
 				log.Printf("Threads new token: %s", threadsResponse.AccessToken)
@@ -86,7 +76,7 @@ func main() {
 		}
 
 		if os.Getenv("INSTAGRAM_ACCESS_TOKEN") != "" {
-			instagramResponse := makeRefreshTokenRequestToInstagram()
+			instagramResponse := instagram.RefreshToken()
 
 			if instagramResponse.AccessToken != "" {
 				log.Printf("Instagram new token: %s", instagramResponse.AccessToken)
@@ -104,7 +94,7 @@ func main() {
 		albumName = args[0]
 	}
 
-	album := getAlbum(albumName)
+	album := utils.GetAlbum(albumName)
 	song := album.Songs[rand.Intn(len(album.Songs))]
 
 	if len(args) == 2 && args[1] != "" {
@@ -117,8 +107,8 @@ func main() {
 	//Special post at midnight
 	if (time.Now().Hour() == 0 && time.Now().Minute() == 0) || *fakeMidnightFlag {
 		albumName = "songs"
-		song = Song{"Midnight", "", "", "💓", []string{}, [][]string{{"We are one beating heart"}}}
-		album = Album{"Midnight", []string{}, []Song{song}}
+		song = utils.Song{Title: "Midnight", SpotifyID: "", Link: "", Emoji: "💓", Hashtags: []string{}, Lyrics: [][]string{{"We are one beating heart"}}}
+		album = utils.Album{Title: "Midnight", Hashtags: []string{}, Songs: []utils.Song{song}}
 	}
 
 	lyrics := strings.Join(song.Lyrics[rand.Intn(len(song.Lyrics))], "\n")
@@ -130,7 +120,7 @@ func main() {
 	log.Printf("Album title: %s\n", album.Title)
 
 	if len(album.Hashtags) > 0 {
-		log.Printf("Album hashtags: %s\n", getHashtagsAsString(album.Hashtags))
+		log.Printf("Album hashtags: %s\n", utils.GetHashtagsAsString(album.Hashtags))
 		hashtags = append(hashtags, album.Hashtags...)
 	}
 
@@ -152,7 +142,7 @@ func main() {
 	}
 
 	if len(song.Hashtags) > 0 {
-		log.Printf("Song hashtags: %s\n", getHashtagsAsString(song.Hashtags))
+		log.Printf("Song hashtags: %s\n", utils.GetHashtagsAsString(song.Hashtags))
 		hashtags = append(hashtags, song.Hashtags...)
 	}
 
@@ -171,38 +161,20 @@ func main() {
 	log.Printf("Alt text: %s\n", altText)
 
 	if *generateImageFlag {
-		imagePath := generateImage(albumName, album, song, lyrics)
+		imagePath := image.Generate(albumName, album, song, lyrics)
 		log.Printf("Image generated: %s\n", imagePath)
 	}
 
 	if *blueskyFlag && os.Getenv("BOTSKY_HANDLE") != "" && os.Getenv("BOTSKY_APPKEY") != "" {
-		postToBluesky(lyrics, reply, link, hashtags)
+		bluesky.Post(lyrics, reply, link, hashtags)
 	}
 
 	if *threadsFlag && os.Getenv("THREADS_ACCESS_TOKEN") != "" {
-		postToThreads(lyrics, reply, link)
+		threads.Post(lyrics, reply, link)
 	}
 
 	if *instagramFlag && os.Getenv("INSTAGRAM_ACCESS_TOKEN") != "" && os.Getenv("INSTAGRAM_IMAGES_URL") != "" {
-		imagePath := generateImage(albumName, album, song, lyrics)
-		postToInstagram(reply, imagePath, altText, hashtags)
+		imagePath := image.Generate(albumName, album, song, lyrics)
+		instagram.Post(reply, imagePath, altText, hashtags)
 	}
-}
-
-func getAlbum(name string) (album Album) {
-	rawData, err := os.ReadFile("albums/" + name + ".json")
-
-	if err != nil {
-		log.Panic(err)
-	}
-
-	if err := json.Unmarshal(rawData, &album); err != nil {
-		log.Panic(err)
-	}
-
-	return album
-}
-
-func getHashtagsAsString(hashtags []string) (hashtagString string) {
-	return "#" + strings.Join(hashtags, " #")
 }

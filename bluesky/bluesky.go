@@ -1,4 +1,4 @@
-package main
+package bluesky
 
 import (
 	"context"
@@ -7,7 +7,7 @@ import (
 	"github.com/davhofer/botsky/pkg/botsky"
 )
 
-func postToBluesky(post, reply, link string, hashtags []string) {
+func Post(post, reply, link string, hashtags []string) {
 	handle, appkey, err := botsky.GetEnvCredentials()
 
 	if err != nil {
