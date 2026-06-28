@@ -103,7 +103,7 @@ func makeRefreshTokenRequestToThreads() (response ThreadsResponse) {
 	url, _ := url.Parse(fmt.Sprintf("https://graph.threads.net/v1.0/%s", "refresh_access_token"))
 	query := url.Query()
 
-	query.Add("grant_type", "ig_refresh_token")
+	query.Add("grant_type", "th_refresh_token")
 	query.Add("access_token", accessToken)
 
 	url.RawQuery = query.Encode()
