@@ -129,11 +129,8 @@ func DebugToken(service Service, accessToken string) (response DebugTokenRespons
 
 	query.Add("access_token", accessToken)
 	query.Add("input_token", accessToken)
-	query.Add("debug", "all")
 
 	url.RawQuery = query.Encode()
-
-	log.Println(url.String())
 
 	resp, err := http.Get(url.String())
 
