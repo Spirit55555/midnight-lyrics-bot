@@ -27,11 +27,13 @@ jobs:
     - name: Set up Docker Buildx
       uses: docker/setup-buildx-action@v4
 
-    - name: Build
-      uses: docker/bake-action@v7
+    - name: Build and push
+      uses: docker/build-push-action@v7
       with:
-          targets: build
-          push: true
+        context: .
+        push: true
+        tags: user/app:latest
+
 
   build:
     runs-on: ubuntu-latest
