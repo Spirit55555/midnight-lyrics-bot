@@ -26,11 +26,22 @@ type Response struct {
 	Error struct {
 		Message string
 	}
+}
 
-	// Used by refresh_access_token endpoint
+type RefreshTokenResponse struct {
+	Response
+
 	AccessToken string `json:"access_token"`
 	TokenType   string `json:"token_type"`
 	ExpiresIn   int    `json:"expires_in"`
+}
+
+type DebugTokenResponse struct {
+	Response
+
+	Data struct {
+		ExpiresAt int `json:"expires_at"`
+	}
 }
 
 func MakePOSTRequest(service Service, accessToken string, endpoint string, params url.Values) (response Response) {
@@ -66,7 +77,7 @@ func MakePOSTRequest(service Service, accessToken string, endpoint string, param
 	return response
 }
 
-func RefreshToken(service Service, accessToken string) (response Response) {
+func RefreshToken(service Service, accessToken string) (response RefreshTokenResponse) {
 	var endpoint string
 	var grantType string
 
@@ -86,6 +97,43 @@ func RefreshToken(service Service, accessToken string) (response Response) {
 	query.Add("access_token", accessToken)
 
 	url.RawQuery = query.Encode()
+
+	resp, err := http.Get(url.String())
+
+	if err != nil {
+		log.Panic(err)
+	}
+
+	defer resp.Body.Close()
+
+	if err := json.NewDecoder(resp.Body).Decode(&response); err != nil {
+		log.Panic(err)
+	}
+
+	return response
+}
+
+// https://developers.facebook.com/docs/graph-api/reference/debug_token
+func DebugToken(service Service, accessToken string) (response DebugTokenResponse) {
+	var endpoint string
+
+	switch service {
+	case INSTAGRAM:
+		endpoint = INSTAGRAM_ENDPOINT
+	case THREADS:
+		endpoint = THREADS_ENDPOINT
+	}
+
+	url, _ := url.Parse(fmt.Sprintf(endpoint, "debug_token"))
+	query := url.Query()
+
+	query.Add("access_token", accessToken)
+	query.Add("input_token", accessToken)
+	query.Add("debug", "all")
+
+	url.RawQuery = query.Encode()
+
+	log.Println(url.String())
 
 	resp, err := http.Get(url.String())
 

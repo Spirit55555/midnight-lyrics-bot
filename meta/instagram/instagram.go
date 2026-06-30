@@ -56,7 +56,7 @@ func makeRequest(endpoint string, params url.Values) (response meta.Response) {
 	return response
 }
 
-func RefreshToken() (response meta.Response) {
+func RefreshToken() (response meta.RefreshTokenResponse) {
 	accessToken := os.Getenv("INSTAGRAM_ACCESS_TOKEN")
 
 	response = meta.RefreshToken(meta.INSTAGRAM, accessToken)
