@@ -1,4 +1,4 @@
-name: Build Go executable
+name: Test Docker and Build GO executable
 
 on:
   push:
@@ -31,6 +31,7 @@ jobs:
       uses: docker/build-push-action@v7
       with:
         context: .
+        file: ./Dockerfile
         push: true
         tags: user/app:latest
 
