@@ -1,0 +1,74 @@
+{
+	"$schema": "../schemas/album.schema.json",
+	"title": "Tonight, Tonight",
+	"songs": [
+		{
+			"title": "Tonight, Tonight",
+			"spotify_id": "6rT5uJeKOsJHu4fuSRlElg",
+			"hashtags": [
+				"tonighttonight",
+				"thesmashingpumpkins"
+			],
+			"lyrics": [
+				[
+					"Time is never time at all",
+					"You can never ever leave",
+					"Without leaving a piece of youth"
+				],
+				[
+					"And our lives are forever changed",
+					"We will never be the same",
+					"The more you change, the less you feel"
+				],
+				[
+					"Believe, believe in me",
+					"Believe, believe"
+				],
+				[
+					"That life can change, that you're not stuck in vain",
+					"We're not the same, we're different"
+				],
+				[
+					"Tonight",
+					"Tonight, tonight, so bright",
+					"Tonight",
+					"Tonight"
+				],
+				[
+					"And you know you're never sure",
+					"But you're sure you could be right",
+					"If you held yourself up to the light"
+				],
+				[
+					"And the embers never fade",
+					"In your city by the lake",
+					"The place where you were born"
+				],
+				[
+					"Believe, believe in me",
+					"Believe, believe"
+				],
+				[
+					"In the resolute urgency of now",
+					"And if you believe there's not a chance"
+				],
+				[
+					"We'll crucify the insincere tonight (Tonight)",
+					"We'll make things right, we'll feel it all tonight (Tonight)",
+					"We'll find a way to offer up the night (Tonight)"
+				],
+				[
+					"The indescribable moments of your life (Tonight)",
+					"The impossible is possible tonight (Tonight)",
+					"Believe in me as I believe in you"
+				],
+				[
+					"Tonight",
+					"Tonight, tonight",
+					"Tonight",
+					"Tonight"
+				]
+			]
+		}
+	]
+}
