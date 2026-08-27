@@ -1,7 +1,7 @@
 package meta
 
 import (
-	"encoding/json"
+	"encoding/json/v2"
 	"fmt"
 	"log"
 	"maps"
@@ -22,10 +22,10 @@ const (
 )
 
 type Response struct {
-	Id    string
+	Id    string `json:"id"`
 	Error struct {
-		Message string
-	}
+		Message string `json:"message"`
+	} `json:"error"`
 }
 
 type RefreshTokenResponse struct {
@@ -41,7 +41,7 @@ type DebugTokenResponse struct {
 
 	Data struct {
 		ExpiresAt int `json:"expires_at"`
-	}
+	} `json:"data"`
 }
 
 func MakePOSTRequest(service Service, accessToken string, endpoint string, params url.Values) (response Response) {
@@ -70,7 +70,7 @@ func MakePOSTRequest(service Service, accessToken string, endpoint string, param
 		log.Printf("%s returned \"%s\" for request to %s", serviceName, resp.Status, resp.Request.URL)
 	}
 
-	if err := json.NewDecoder(resp.Body).Decode(&response); err != nil {
+	if err := json.UnmarshalRead(resp.Body, &response); err != nil {
 		log.Panic(err)
 	}
 
@@ -106,7 +106,7 @@ func RefreshToken(service Service, accessToken string) (response RefreshTokenRes
 
 	defer resp.Body.Close()
 
-	if err := json.NewDecoder(resp.Body).Decode(&response); err != nil {
+	if err := json.UnmarshalRead(resp.Body, &response); err != nil {
 		log.Panic(err)
 	}
 
@@ -140,7 +140,7 @@ func DebugToken(service Service, accessToken string) (response DebugTokenRespons
 
 	defer resp.Body.Close()
 
-	if err := json.NewDecoder(resp.Body).Decode(&response); err != nil {
+	if err := json.UnmarshalRead(resp.Body, &response); err != nil {
 		log.Panic(err)
 	}
 

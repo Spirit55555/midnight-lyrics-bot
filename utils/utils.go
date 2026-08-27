@@ -1,25 +1,25 @@
 package utils
 
 import (
-	"encoding/json"
+	"encoding/json/v2"
 	"log"
 	"os"
 	"strings"
 )
 
 type Album struct {
-	Title    string
-	Hashtags []string
-	Songs    []Song
+	Title    string   `json:"title"`
+	Hashtags []string `json:"hastags"`
+	Songs    []Song   `json:"songs"`
 }
 
 type Song struct {
-	Title     string
-	SpotifyID string `json:"spotify_id"`
-	Link      string
-	Emoji     string
-	Hashtags  []string
-	Lyrics    [][]string
+	Title     string     `json:"title"`
+	SpotifyID string     `json:"spotify_id"`
+	Link      string     `json:"link"`
+	Emoji     string     `json:"emoji"`
+	Hashtags  []string   `json:"hashtags"`
+	Lyrics    [][]string `json:"lyrics"`
 }
 
 func GetHashtagsAsString(hashtags []string) (hashtagString string) {
