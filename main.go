@@ -39,6 +39,7 @@ var albums = []string{
 	"songs",
 	"syndicate",
 	"syndicate_deluxe",
+	"the_void_part_2",
 	"tonight_tonight",
 	"vehlinggo",
 }

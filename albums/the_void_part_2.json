@@ -1,0 +1,57 @@
+{
+	"$schema": "../schemas/album.schema.json",
+	"title": "THE VOID PART 2",
+	"hashtags": [
+		"thevoidpart2",
+		"nightly"
+	],
+	"songs": [
+		{
+			"title": "1989",
+			"spotify_id": "5Oe48IxkMnpqR6Aw7qHYpQ",
+			"hashtags": [
+				"1989"
+			],
+			"lyrics": [
+				[
+					"I still see your face",
+					"Every time that record plays",
+					"Singin' 'Bad Blood' and 'Wildest Dreams'",
+					"You were lookin' right at me"
+				],
+				[
+					"And I hate that now I can't listen",
+					"Without fallin' all over again",
+					"Somewhere I'm still"
+				],
+				[
+					"Singin' loud, windows down, in the back of your car",
+					"With your hands on my mouth and the radio on",
+					"Now it's quiet every time that I drive",
+					"I lost you and 1989"
+				],
+				[
+					"How do you move on from a fatal blow?",
+					"No one I'm askin' here seems to know"
+				],
+				[
+					"How you're the drug you can't quit or forget or get over it",
+					"But when I hear that sound",
+					"I swear I'm still"
+				],
+				[
+					"Sunsets, no rеst, singin' loud as you can",
+					"Still in my head, I don't wanna forget"
+				],
+				[
+					"Each night, you said, 'Are you missin' mе yet?''",
+					"You're in my head, I don't wanna forget"
+				],
+				[
+					"Each night, you said, 'Are you missin' me yet?'",
+					"You're in my head, I don't wanna for—"
+				]
+			]
+		}
+	]
+}
